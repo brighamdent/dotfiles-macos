@@ -68,7 +68,7 @@ inputbar {
     border-radius:               25px;
     orientation:                 horizontal;
     children:                    ["entry", "dummy", "mode-switcher" ];
-    background-image:            url("/home/brigham/.waypaper_engine/images/4pqrn9xjdcsc1(1).jpeg", width);
+    background-image:            url("/home/brigham/.waypaper_engine/images/3rqkaii6earc1.jpeg", width);
 }
 
 /* ---- Entry input ---- */
