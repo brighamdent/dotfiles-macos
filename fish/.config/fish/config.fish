@@ -6,22 +6,6 @@ set -g fish_greeting ""
 set -x PATH $HOME/bin $PATH
 # set -g fish_term24bit 0
 # source ~/.cache/wal/colors.fish
-
-    # set_color -U blue red
-# function fish_prompt
-#     set_color blue
-#     echo -n (whoami)
-#     set_color normal
-#     echo -n '@'
-#     set_color yellow
-#     echo -n (hostname)
-#     set_color normal
-#     echo -n ' '
-#     set_color green
-#     echo -n (prompt_pwd)
-#     set_color normal
-#     echo -n '>'
-# end
 # set -U fish_color_autosuggestion #e01616
 
 alias ls 'ls --color=auto'
@@ -30,6 +14,8 @@ alias la 'ls -a'
 alias grep 'grep --color=auto'
 alias vim 'nvim'
 alias fd 'cd (fdir)'
+# alias neofetch 'neofetch --ascii ~/dotfiles/neofetch/.config/neofetch/archlogo.txt'
+alias neofetch 'fastfetch'
 alias waypaper-engine 'waypaper-engine r --script=~/scripts/changewallpaper.sh'
 alias ls 'eza --color=always --long --git --no-filesize --icons=always --no-time --no-user --no-permissions'
 alias clear 'clear && neofetch'

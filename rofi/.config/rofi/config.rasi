@@ -68,7 +68,7 @@ inputbar {
     border-radius:               25px;
     orientation:                 horizontal;
     children:                    ["entry", "dummy", "mode-switcher" ];
-    background-image:            url("/home/brigham/.waypaper_engine/images/japanesenight.png", width);
+    background-image:            url("/home/brigham/media/wallpapers/6ksnakemountain.jpg", width);
 }
 
 /* ---- Entry input ---- */
