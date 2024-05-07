@@ -11,7 +11,6 @@
 }
 
 window {
-	/*font-weight: bold;*/
 }
 window#waybar {
     background: rgba(0, 0, 0, 0);
@@ -69,19 +68,6 @@ window#waybar {
     border-radius: 15px;
 }
 
-/* #workspaces button { */
-/*     padding: 1px 5px; */
-/*     background-color: transparent; */
-/* } */
-/* #workspaces button:hover { */
-/*     box-shadow: inherit; */
-/* 	background-color: rgba(0,153,153,.50); */
-/* } */
-/**/
-/* #workspaces button.focused { */
-/* 	background-color: rgba(0,43,51,0.85); */
-/* } */
-
 #clock,
 #battery,
 #cpu,
@@ -128,10 +114,3 @@ window#waybar {
 #temperature.critical {
     color: #cc3436;
 }
-/*-----Colors----*/
-/*
- *rgba(0,85,102,1),#005566 --> Indigo(dye)
- *rgba(0,43,51,1),#002B33 --> Dark Green 
- *rgba(0,153,153,1),#009999 --> Persian Green 
- *
- */

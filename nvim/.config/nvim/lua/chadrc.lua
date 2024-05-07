@@ -13,6 +13,9 @@ M.ui = {
     theme = "default",
     separator_style = "block",
   },
+  nerdtree = {
+    NERDTreeShowHidden=1
+  },
 	-- hl_override = {
 	-- 	Comment = { italic = true },
 	-- 	["@comment"] = { italic = true },

@@ -9,6 +9,7 @@ alias fd='cd "$(fdir)"'
 alias waypaper-engine='waypaper-engine r --script=~/scripts/changewallpaper.sh'
 alias ls='eza --color=always --long --git --no-filesize --icons=always --no-time --no-user --no-permissions'
 alias clear='clear && neofetch'
+alias neofetch='fastfetch'
 
 # Exported environment variables
 export GTK_THEME=Adwaita:dark
