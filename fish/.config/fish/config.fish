@@ -5,7 +5,7 @@ set -g fish_greeting ""
 set -x PATH $HOME/bin $PATH
 
 #List of aliases
-alias ls 'ls --color=auto'
+alias ls 'ls -color=auto'
 alias ll 'ls -l'
 alias la 'ls -a'
 alias grep 'grep --color=auto'
@@ -15,6 +15,7 @@ alias neofetch 'fastfetch'
 alias waypaper-engine 'waypaper-engine r --script=~/scripts/changewallpaper.sh'
 alias ls 'eza --color=always --long --git --no-filesize --icons=always --no-time --no-user --no-permissions'
 alias clear 'clear && neofetch'
+# alias cd '__zoxide_z'
 
 #Starts wal on boot
 cat /home/brigham/.cache/wal/sequences
@@ -42,6 +43,7 @@ if not set -q VIMRUNTIME
   neofetch
   starship init fish | source
 end
+zoxide init fish | source
 end
 if test -z "$DISPLAY" -a (tty) = '/dev/tty1'
     exec Hyprland
