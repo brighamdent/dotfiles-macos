@@ -14,7 +14,8 @@ M.ui = {
     separator_style = "block",
   },
   nerdtree = {
-    NERDTreeShowHidden=1
+    NERDTreeShowHidden=1,
+    git =  { ignore = false    }
   },
 	-- hl_override = {
 	-- 	Comment = { italic = true },

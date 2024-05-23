@@ -15,6 +15,8 @@ alias neofetch 'fastfetch'
 alias waypaper-engine 'waypaper-engine r --script=~/scripts/changewallpaper.sh'
 alias ls 'eza --color=always --long --git --no-filesize --icons=always --no-time --no-user --no-permissions'
 alias clear 'clear && neofetch'
+alias tmfloat '~/scripts/tmux_session_float.sh'
+alias tmcode '~/scripts/tmux_session_code.sh'
 # alias cd '__zoxide_z'
 
 #Starts wal on boot
