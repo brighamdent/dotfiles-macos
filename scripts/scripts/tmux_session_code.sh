@@ -12,7 +12,7 @@ else
     tmux new-window -t $SESSION_NAME: -n secondary
     tmux new-window -t $SESSION_NAME: -n misc
 
-    tmux select-window -t float:1
+    tmux select-window -t $SESSION_NAME:1
     # Attach to the session
     tmux attach-session -t $SESSION_NAME
     

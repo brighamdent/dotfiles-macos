@@ -139,38 +139,46 @@ return {
     end,
   },
   {
-    "epwalsh/obsidian.nvim",
-    version = "*", -- recommended, use latest release instead of latest commit
-    lazy = true,
-    ft = "markdown",
-    -- Replace the above line with this if you only want to load obsidian.nvim for markdown files in your vault:
-    -- event = {
-    --   -- If you want to use the home shortcut '~' here you need to call 'vim.fn.expand'.
-    --   -- E.g. "BufReadPre " .. vim.fn.expand "~" .. "/my-vault/**.md"
-    --   "BufReadPre path/to/my-vault/**.md",
-    --   "BufNewFile path/to/my-vault/**.md",
-    -- },
-    dependencies = {
-      -- Required.
-      "nvim-lua/plenary.nvim",
-
-      -- see below for full list of optional dependencies 👇
-    },
-    opts = {
-      workspaces = {
-        {
-          name = "personal",
-          path = "~/Obsidian Vault",
-        },
-        -- {
-        --   name = "work",
-        --   path = "~/vaults/work",
-        -- },
-      },
-
-      -- see below for full list of options 👇
-    },
-  }, 
+    "shortcuts/no-neck-pain.nvim",
+    version = "*",
+    lazy = false,
+  },
+  -- {
+  --   'arnamak/stay-centered.nvim'
+  -- },
+  -- {
+  --   "epwalsh/obsidian.nvim",
+  --   version = "*", -- recommended, use latest release instead of latest commit
+  --   lazy = true,
+  --   ft = "markdown",
+  --   -- Replace the above line with this if you only want to load obsidian.nvim for markdown files in your vault:
+  --   -- event = {
+  --   --   -- If you want to use the home shortcut '~' here you need to call 'vim.fn.expand'.
+  --   --   -- E.g. "BufReadPre " .. vim.fn.expand "~" .. "/my-vault/**.md"
+  --   --   "BufReadPre path/to/my-vault/**.md",
+  --   --   "BufNewFile path/to/my-vault/**.md",
+  --   -- },
+  --   dependencies = {
+  --     -- Required.
+  --     "nvim-lua/plenary.nvim",
+  --
+  --     -- see below for full list of optional dependencies 👇
+  --   },
+  --   opts = {
+  --     workspaces = {
+  --       {
+  --         name = "personal",
+  --         path = "~/Obsidian Vault",
+  --       },
+  --       -- {
+  --       --   name = "work",
+  --       --   path = "~/vaults/work",
+  --       -- },
+  --     },
+  --
+  --     -- see below for full list of options 👇
+  --   },
+  -- },
   {
     "nvim-lua/plenary.nvim",
   },
@@ -182,9 +190,16 @@ return {
       require("harpoon"):setup()
     end,
     keys = {
-      { "<leader>A", function() require("harpoon"):list():add() end, desc = "harpoon file", },
+      { "<leader>A", function() require("harpoon"):list():add() end,    desc = "harpoon file", },
       { "<leader>r", function() require("harpoon"):list():remove() end, desc = "harpoon file", },
-      { "<leader>a", function() local harpoon = require("harpoon") harpoon.ui:toggle_quick_menu(harpoon:list()) end, desc = "harpoon quick menu", },
+      {
+        "<leader>a",
+        function()
+          local harpoon = require("harpoon")
+          harpoon.ui:toggle_quick_menu(harpoon:list())
+        end,
+        desc = "harpoon quick menu",
+      },
       { "<leader>1", function() require("harpoon"):list():select(1) end, desc = "harpoon to file 1", },
       { "<leader>2", function() require("harpoon"):list():select(2) end, desc = "harpoon to file 2", },
       { "<leader>3", function() require("harpoon"):list():select(3) end, desc = "harpoon to file 3", },

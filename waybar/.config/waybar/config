@@ -34,7 +34,11 @@
         "format-ethernet": "🔗",
         "format-disconnected": "🚫", 
         "max-length": 50,
-        "on-click": "kitty -e 'nmtui'"
+        "on-click": "kitty -e 'nmtui'",
+        "tooltip-format": " {ifname} via {gwaddri}",
+        "tooltip-format-wifi": "  {essid}\n{ipaddr}\nStrength: {signalStrength}%",
+        "tooltip-format-ethernet": " {ifname}\n {ipaddr}",
+        "tooltip-format-disconnected": "Disconnected",
     },
     "idle_inhibitor": {
         "format": "{icon}",
@@ -50,7 +54,7 @@
     },
     "clock": {
           "format": "🕓 {:%I:%M %p   📅 %m/%d/%y }",
-         //"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+          //"tooltip-format": "<big>{calendar}</big>",
         // "format-alt": "{:%Y-%m-%d}"
 		"on-click": "gnome-calendar"
     },
@@ -74,7 +78,8 @@
     },
 	"custom/power": {
 		"format": " ",
-    "on-click": "wlogout -b 4 -T 400 -B 400"
+    "on-click": "wlogout -b 4 -T 400 -B 400",
+    "tooltip-format": ""
 	},
     "custom/scratchpad-indicator": {
         "format-text": "{}hi",
