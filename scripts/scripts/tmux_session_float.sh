@@ -1,3 +1,5 @@
+#!/bin/bash
+
 SESSION_NAME="float"
 
 # Check if the session exists
