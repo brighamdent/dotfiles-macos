@@ -16,7 +16,7 @@ alias clear 'clear && neofetch'
 alias tmfloat '~/scripts/tmux_session_float.sh'
 alias tmcode '~/scripts/tmux_session_code.sh'
 
-# alias cd '__zoxide_z'
+# alias cd 'z'
 
 #Starts wal on boot
 cat /home/brigham/.cache/wal/sequences
