@@ -65,7 +65,15 @@ return {
     },
     {
       "hrsh7th/nvim-cmp",
-      -- opts = overrides.cmp,
+      opts = function()
+        local cmp = require "cmp"
+        cmp.setup.filetype({ "sql" }, {
+          sources = {
+            { name = "vim-dadbod-completion" },
+            { name = "buffer" },
+          },
+        })
+      end,
 
       dependencies = {
         {
@@ -144,13 +152,6 @@ return {
     version = "*",
     lazy = false,
   },
-  -- {
-  --   'windwp/nvim-ts-autotag',
-  --   lazy = false,
-  -- },
-  -- {
-  --   'arnamak/stay-centered.nvim'
-  -- },
   {
     "epwalsh/obsidian.nvim",
     version = "*", -- recommended, use latest release instead of latest commit
@@ -186,7 +187,6 @@ return {
   },
   {
     "nvim-lua/plenary.nvim",
-    lazy = false
   },
   {
     "theprimeagen/harpoon",
@@ -216,5 +216,50 @@ return {
   {
     'bullets-vim/bullets.vim',
     lazy = false
+  },
+  {
+    'edluffy/hologram.nvim',
+    lazy = false,
+  },
+  {
+    "folke/noice.nvim",
+    event = "VeryLazy",
+    opts = {
+      -- add any options here
+    },
+    dependencies = {
+      -- if you lazy-load any plugin below, make sure to add proper `module="..."` entries
+      "MunifTanjim/nui.nvim",
+      -- OPTIONAL:
+      --   `nvim-notify` is only needed, if you want to use the notification view.
+      --   If not available, we use `mini` as the fallback
+      "rcarriga/nvim-notify",
+    }
+  },
+  {
+    'tpope/vim-dadbod',
+    cmd = {
+      "DB"
+    }
+  },
+  {
+    'kristijanhusak/vim-dadbod-ui',
+    dependencies = {
+      { 'tpope/vim-dadbod',                     lazy = true },
+      { 'kristijanhusak/vim-dadbod-completion', ft = { 'sql', 'mysql', 'plsql' }, lazy = true },
+    },
+    cmd = {
+      'DBUI',
+      'DBUIToggle',
+      'DBUIAddConnection',
+      'DBUIFindBuffer',
+    },
+    init = function()
+      -- Your DBUI configuration
+      vim.g.db_ui_use_nerd_fonts = 1
+    end,
+  },
+  {
+    'kristijanhusak/vim-dadbod-completion',
   }
 }

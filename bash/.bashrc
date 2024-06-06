@@ -18,6 +18,7 @@ alias neofetch= 'fastfetch'
 # List of Variables
 export GTK_THEME=Adwaita:dark
 export QT_STYLE_OVERRIDE=Adwaita-dark
+export MUSIC_DIR=~/media/music/Liked-Songs/
 
 #Starts wall on boot
 cat /home/brigham/.cache/wal/sequences

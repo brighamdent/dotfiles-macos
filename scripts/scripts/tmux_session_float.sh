@@ -10,8 +10,6 @@ else
     # If session doesn't exist, create it
     tmux new-session -d -s $SESSION_NAME -n main
     tmux new-window -t $SESSION_NAME: -n server
-    # Create a new window named "notes" and open Neovim in ~/Documents/notes
-    tmux new-window -t $SESSION_NAME: -n notes -c ~/Documents/Notes -d nvim
     tmux new-window -t $SESSION_NAME: -n misc
     tmux select-window -t $SESSION_NAME:1
     # Attach to the session

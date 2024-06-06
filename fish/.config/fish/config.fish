@@ -3,6 +3,7 @@ if status is-interactive
 
 set -g fish_greeting ""
 set -x PATH $HOME/bin $PATH
+set -x MUSIC_DIR ~/media/music/Liked-Songs/
 
 #List of aliases
 alias ll 'ls -l'
@@ -15,6 +16,7 @@ alias ls 'eza --color=always --long --git --no-filesize --icons=always --no-time
 alias clear 'clear && neofetch'
 alias tmfloat '~/scripts/tmux_session_float.sh'
 alias tmcode '~/scripts/tmux_session_code.sh'
+alias music='tmux new-session -s $fish_pid "tmux source-file ~/.config/ncmpcpp/tsession"'
 
 # alias cd 'z'
 
