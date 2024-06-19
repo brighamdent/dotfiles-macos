@@ -24,8 +24,8 @@ vim.o.autoindent = true
 
 -- Enable Markdown-specific settings
 vim.api.nvim_create_autocmd("FileType", {
-    pattern = "markdown",
-    command = "setlocal formatoptions+=n"
+  pattern = "markdown",
+  command = "setlocal formatoptions+=n"
 })
 if vim.g.neovide then
   -- vim.o.guifont = "JetbrainsMono Nerd Font:h10"
@@ -38,6 +38,5 @@ if vim.g.neovide then
   vim.keymap.set("i", "<c-r>", "<c-s-v>")
 end
 -- add yours here!
-
 -- local o = vim.o
 -- o.cursorlineopt ='both' -- to enable cursorline!
