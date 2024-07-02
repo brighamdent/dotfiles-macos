@@ -5,6 +5,8 @@ set -g fish_greeting ""
 set -x PATH $HOME/bin $PATH
 set -x MUSIC_DIR ~/media/music/Liked-Songs/
 
+
+bind \cH backward-kill-word
 #List of aliases
 alias ll 'ls -l'
 alias la 'ls -a'

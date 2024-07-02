@@ -180,7 +180,12 @@ return {
     end,
   },
   {
+    "JoosepAlviste/nvim-ts-context-commentstring",
+    lazy = false
+  },
+  {
     "numToStr/Comment.nvim",
+    lazy = false,
     dependencies = "JoosepAlviste/nvim-ts-context-commentstring",
     config = function()
       require("Comment").setup {
@@ -254,10 +259,6 @@ return {
       { "<leader>5", function() require("harpoon"):list():select(5) end, desc = "harpoon to file 5", },
     },
   },
-  -- {
-  --   'bullets-vim/bullets.vim',
-  --   lazy = false
-  -- },
   {
     'edluffy/hologram.nvim',
     lazy = false,
@@ -335,10 +336,10 @@ return {
       vim.g.db_ui_use_nerd_fonts = 1
     end
   },
-  {
-    'preservim/vim-pencil',
-    cmd = 'PencilToggle'
-  },
+  -- {
+  --   'preservim/vim-pencil',
+  --   cmd = 'PencilToggle'
+  -- },
   {
     "gaoDean/autolist.nvim",
     ft = {
