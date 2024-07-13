@@ -6,6 +6,7 @@ set -x PATH $HOME/bin $PATH
 set -x MUSIC_DIR ~/media/music/Liked-Songs/
 
 
+
 bind \cH backward-kill-word
 #List of aliases
 alias ll 'ls -l'
@@ -19,13 +20,14 @@ alias clear 'clear && neofetch'
 alias tmfloat '~/scripts/tmux_session_float.sh'
 alias tmcode '~/scripts/tmux_session_code.sh'
 alias music 'tmux new-session -s $fish_pid "tmux source-file ~/.config/ncmpcpp/tsession"'
+alias ncmp 'TERM=xterm ncmpcpp'
 
 #Starts wal on boot
 cat /home/brigham/.cache/wal/sequences
 
 #Variables
-export GTK_THEME=Adwaita:dark
-export QT_STYLE_OVERRIDE=Adwaita-dark
+set GTK_THEME -g Adwaita:dark
+set QT_STYLE_OVERRIDE -g Adwaita-dark
 
 #Functions for Fzf "Find file in current directory"
 function ff

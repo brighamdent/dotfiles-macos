@@ -22,7 +22,7 @@ M.ui = {
   -- 	["@comment"] = { italic = true },
   -- },
   tabufline = {
-    lazyload = true,
+    lazyload = false,
     order = { "treeOffset", "buffers", "tabs" }
   },
   hl_override = {
