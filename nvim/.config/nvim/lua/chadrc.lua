@@ -22,8 +22,9 @@ M.ui = {
   -- 	["@comment"] = { italic = true },
   -- },
   tabufline = {
+    enabled = false,
     lazyload = false,
-    order = { "treeOffset", "buffers", "tabs" }
+    order = { "treeOffset", "buffers", "tabs", }
   },
   hl_override = {
     -- Pmenu = { bg = "#ffffff" }, this works too

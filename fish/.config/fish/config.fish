@@ -23,7 +23,8 @@ alias music 'tmux new-session -s $fish_pid "tmux source-file ~/.config/ncmpcpp/t
 alias ncmp 'TERM=xterm ncmpcpp'
 
 #Starts wal on boot
-cat /home/brigham/.cache/wal/sequences
+wal -w > /dev/null 2>&1
+# cat /home/brigham/.cache/wal/sequences
 
 #Variables
 set GTK_THEME -g Adwaita:dark

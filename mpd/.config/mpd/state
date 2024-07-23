@@ -1,0 +1,737 @@
+sw_volume: 100
+audio_device_state:1:Pulse Audio
+audio_device_state:1:my_fifo
+state: pause
+current: 154
+time: 129.354000
+random: 0
+repeat: 1
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Danny Ocean - Fuera del mercado.ogg
+1:Salma - efectos secundarios.ogg
+2:RUGGERO - Si Tú No Estás.ogg
+3:Twenty One Pilots - Ride.ogg
+4:Lérica - Hijos Contigo.ogg
+5:Daddy Yankee - Dura.ogg
+6:Eminem - Lucky You (feat. Joyner Lucas).ogg
+7:Blackway - What's Up Danger (with Black Caviar).ogg
+8:Eminem - Without Me.ogg
+9:Tierra Adentro - Soy Latino.ogg
+10:R. City - Locked Away (feat. Adam Levine).ogg
+11:Andy Grammer - Honey, I'm Good..ogg
+12:Samanta Duque - Amores.ogg
+13:John Newman - Love Me Again.ogg
+14:Grant Gustin - Runnin' Home to You.ogg
+15:Macklemore - LOST_SUN COMES UP (feat. Jackson Lee Morgan).ogg
+16:Alvaro Soler - Magia.ogg
+17:Backstreet Boys - I Want It That Way.ogg
+18:Amy Shark - I Said Hi.ogg
+19:Black Eyed Peas - RITMO (Bad Boys For Life).ogg
+20:Bad Bunny - 25_8.ogg
+21:AJR - Bud Like You.ogg
+22:Bastille - What Would You Do.ogg
+23:The Revivalists - Wish I Knew You.ogg
+24:AJR - Let the Games Begin.ogg
+25:Zac Efron - Rewrite The Stars.ogg
+26:Lil Wayne - Sucker for Pain (with Wiz Khalifa, Imagine Dragons, Logic & Ty Dolla $ign feat. X Ambassadors).ogg
+27:Ellie Goulding - Close To Me (with Diplo) (feat. Swae Lee).ogg
+28:Imagine Dragons - Thunder.ogg
+29:Queen - Another One Bites The Dust.ogg
+30:Jonathan Groff - You'll Be Back.ogg
+31:WALK THE MOON - Shut Up and Dance.ogg
+32:Jaula de Grillos - Bengalas.ogg
+33:El Vega - Te Encontre.ogg
+34:Vance Joy - Riptide.ogg
+35:Post Malone - Better Now.ogg
+36:Drake - God's Plan.ogg
+37:Marc Seguí - Tiroteo - Remix.ogg
+38:Why Don't We - 8 Letters.ogg
+39:Bad Bunny - TE MUDASTE.ogg
+40:While She Sleeps - Silence Speaks (feat. Oli Sykes).ogg
+41:Ed Sheeran & Justin Bieber - I Don't Care (with Justin Bieber).ogg
+42:Manuel Turizo - Amor en Coma.ogg
+43:OneRepublic - Human.ogg
+44:AJR - Next Up Forever.ogg
+45:Bad Bunny - Yonaguni.ogg
+46:Fuego - Una Vaina Loca.ogg
+47:Natalia Lafourcade - Hasta la Raíz.ogg
+48:Dirtyphonics - Watch Out (feat. Ragga Twins).ogg
+49:J Balvin - Forever My Love.ogg
+50:Macklemore - Ain't Gonna Die Tonight (feat. Eric Nally).ogg
+51:Imagine Dragons - Hopeless Opus.ogg
+52:Allstar Weekend - Mr Wonderful.ogg
+53:AJR - Dear Winter.ogg
+54:LEX - Lo Hice por Ti.ogg
+55:Imagine Dragons - Underdog.ogg
+56:Beau Young Prince - Let Go.ogg
+57:Daya - New.ogg
+58:Twenty One Pilots - Pet Cheetah.ogg
+59:Imagine Dragons - I Don’t Know Why.ogg
+60:Lauri Garcia - Miel.ogg
+61:Carla Morrison - Contigo.ogg
+62:Selena Gomez - Baila Conmigo (with Rauw Alejandro).ogg
+63:OneRepublic - Apologize.ogg
+64:Imagine Dragons - Polaroid.ogg
+65:George Ezra - Hold My Girl.ogg
+66:Fall Out Boy - Immortals.ogg
+67:Bad Bunny - DÁKITI.ogg
+68:Queen - Save Me.ogg
+69:AJR - Finale (Can't Wait To See What You Do Next).ogg
+70:Daddy Yankee - X ÚLTIMA VEZ.ogg
+71:Imagine Dragons - Summer.ogg
+72:Samantha - UN POQUITO.ogg
+73:ELO - Sweet Talking Woman - Live.ogg
+74:AWOLNATION - Sail.ogg
+75:Marianas Trench - B Team.ogg
+76:Imagine Dragons - Walking The Wire.ogg
+77:Electric Light Orchestra - Don't Bring Me Down.ogg
+78:Eminem - Till I Collapse.ogg
+79:Russ - Me You.ogg
+80:Imagine Dragons - I’ll Make It Up To You.ogg
+81:Bleachers - Don't Take The Money.ogg
+82:Flavio - Mi otra mitad.ogg
+83:Alan Walker - All Falls Down (feat. Juliander).ogg
+84:CNCO - Reggaetón Lento (Bailemos).ogg
+85:Fall Out Boy - Centuries.ogg
+86:Queen - Play The Game.ogg
+87:Imagine Dragons - Smoke And Mirrors.ogg
+88:AJR - Turning Out Pt. ii.ogg
+89:Miike Snow - Lonely Life.ogg
+90:Pedro Capó - Calma - Remix.ogg
+91:Twenty One Pilots - Chlorine.ogg
+92:Smallpools - Million Bucks - Violet Days Remix.ogg
+93:Ellie Goulding - Sixteen.ogg
+94:Simple Plan - I Don't Wanna Be Sad.ogg
+95:Bastille - Million Pieces.ogg
+96:Maluma - Aloha.ogg
+97:MARLENA - Me Sabe Mal.ogg
+98:Vince Staples - Opps (with Yugen Blakrok).ogg
+99:José Esparza - Me Hubiera Gustado.ogg
+100:Journey - Open Arms.ogg
+101:Charli XCX - After the Afterparty (feat. Lil Yachty) - Alan Walker Remix.ogg
+102:AJR - Netflix Trip.ogg
+103:The White Stripes - Seven Nation Army.ogg
+104:Farruko - Pepas.ogg
+105:Lou Cornago - Te Echo de Menos.ogg
+106:Miike Snow - Genghis Khan.ogg
+107:Luis Fonsi - Date La Vuelta.ogg
+108:Christian French - By Myself.ogg
+109:Bad Bunny - HACIENDO QUE ME AMAS.ogg
+110:Imagine Dragons - Bad Liar.ogg
+111:._1.ogg
+112:Luis Fonsi - Bésame.ogg
+113:Dvicio - Discúlpame.ogg
+114:Imagine Dragons - Warriors.ogg
+115:Macklemore - CHANT (feat. Tones And I).ogg
+116:Bastille - Icarus.ogg
+117:Grace VanderWaal - I Don't Know My Name.ogg
+118:Imagine Dragons - Whatever It Takes.ogg
+119:Capital Kings - You'll Never Be Alone.ogg
+120:Guaynaa - Monterrey.ogg
+121:NateWantsToBattle - Branded.ogg
+122:Avicii - Lonely Together - (feat. Rita Ora) Alan Walker Remix.ogg
+123:GROUPLOVE - Tongue Tied.ogg
+124:Queen - Killer Queen.ogg
+125:Sebastian Yatra - Pareja Del Año.ogg
+126:GROUPLOVE - Ways to Go.ogg
+127:The Score - Revolution.ogg
+128:Jonas Blue - Rise.ogg
+129:Bad Bunny - Callaita.ogg
+130:D Kaste - La Vuelta al Mundo.ogg
+131:GAYLE - abcdefu.ogg
+132:State Champs - Dead and Gone.ogg
+133:AMZY - Sorry (Not Sorry).ogg
+134:Queen - I Want To Break Free - Single Version.ogg
+135:Asking Alexandria - When Everyday's The Weekend.ogg
+136:Howie Day - Collide - Acoustic Version.ogg
+137:zzoilo - Luces, Cámara, Acción.ogg
+138:Capital Cities - Safe And Sound.ogg
+139:Cocora - Donde Tú Quieras.ogg
+140:Imagine Dragons - Shots.ogg
+141:Ina Wroldsen - Strongest (Alan Walker Remix).ogg
+142:Daddy Yankee - RUMBATÓN.ogg
+143:Alvaro Soler - Mañana.ogg
+144:Alan Walker - The Spectre.ogg
+145:Loud Forest - I'm Not Your Girl.ogg
+146:Sebastian Yatra - Melancólicos Anónimos.ogg
+147:Hansel Casty - Baby Tu Me Encantas - Spanish Version.ogg
+148:Why Don't We - I Don't Belong In This Club.ogg
+149:Sofía Carmona - Alejandro.ogg
+150:Enrique Iglesias - ME PASE (feat. Farruko).ogg
+151:Imagine Dragons - Demons.ogg
+152:Luis Fonsi - Despacito.ogg
+153:Nicky Youre - Sunroof.ogg
+154:Deba - Verano.ogg
+155:AJR - Beats.ogg
+156:Camilo - Vida de Rico.ogg
+157:The Chainsmokers - Paris.ogg
+158:Panic! At The Disco - Say Amen (Saturday Night).ogg
+159:Kendall Peña - Tu Canción.ogg
+160:AJR - The Entertainment's Here.ogg
+161:Of Monsters and Men - Little Talks.ogg
+162:Getter Jaani - Rockefeller Street.ogg
+163:AJR - Weak.ogg
+164:KAROL G - LOCATION.ogg
+165:KONGOS - Come with Me Now.ogg
+166:Pharrell Williams - Happy.ogg
+167:Ed Maverick - Fuentes de Ortiz.ogg
+168:Abraham GÜ - No Eramos Nada.ogg
+169:Bastille - Overjoyed.ogg
+170:George Ezra - Shotgun.ogg
+171:Los Legendarios - Fiel.ogg
+172:Bad Bunny - MIA (feat. Drake).ogg
+173:Europe - The Final Countdown.ogg
+174:Guaynaa - Cumbia A La Gente.ogg
+175:AJR - Normal.ogg
+176:AJR - Come Hang Out.ogg
+177:Dean Lewis - Waves.ogg
+178:Maroon 5 - Maps.ogg
+179:Bad Suns - Off She Goes.ogg
+180:ARON - Nieve.ogg
+181:Macklemore - Willy Wonka (feat. Offset).ogg
+182:Bad Bunny - LA NOCHE DE ANOCHE.ogg
+183:Wrabel - The Village.ogg
+184:Andy Grammer - Sinner.ogg
+185:Canal RCN - BAILA CONMIGO (HASTA QUE LA PLATA NOS SEPARE).ogg
+186:J. Cole - MIDDLE CHILD.ogg
+187:Bastille - Weight Of Living, Pt. II.ogg
+188:Panic! At The Disco - Don't Threaten Me with a Good Time.ogg
+189:Coldplay - Viva La Vida.ogg
+190:Hugh Jackman - Come Alive.ogg
+191:Alan Walker - I Don't Wanna Go.ogg
+192:Enyer Corwin - Me Contagié, Vol. 2.ogg
+193:KYLE - Playinwitme (feat. Kehlani).ogg
+194:Hugh Jackman - From Now On.ogg
+195:Eminem - Love The Way You Lie.ogg
+196:El Vega Life - Pa Vivirla.ogg
+197:littleDEATH - Cheap Beer and Nicotine.ogg
+198:AWOLNATION - Woman Woman.ogg
+199:Hugh Jackman - The Greatest Show.ogg
+200:Fall Out Boy - Uma Thurman.ogg
+201:AJR - Don't Throw Out My Legos.ogg
+202:fun. - Be Calm.ogg
+203:The Chainsmokers - Closer.ogg
+204:Post Malone - Sunflower - Spider-Man: Into the Spider-Verse.ogg
+205:Grace VanderWaal - Escape My Mind.ogg
+206:Jack & Jack - Beg.ogg
+207:Florence + The Machine - Cosmic Love.ogg
+208:Imagine Dragons - Hear Me.ogg
+209:Macklemore - Glorious (feat. Skylar Grey).ogg
+210:Sia - The Greatest (feat. Kendrick Lamar).ogg
+211:Axwell _\ Ingrosso - More Than You Know.ogg
+212:The Ghost Club - This Bird Has Flown.ogg
+213:Imagine Dragons - It Comes Back To You.ogg
+214:Galantis - Bones (feat. OneRepublic).ogg
+215:Jason Derulo - Trumpets.ogg
+216:Javi Eloy - Loco Enamorado.ogg
+217:Anne-Marie - 2002.ogg
+218:Maroon 5 - Girls Like You.ogg
+219:Sech - Relación - Remix.ogg
+220:Mumford & Sons - Awake My Soul.ogg
+221:OneRepublic - Kids.ogg
+222:OneRepublic - Preacher.ogg
+223:Bastille - Get Home.ogg
+224:John Legend - All of Me.ogg
+225:Khalid - Cold Blooded.ogg
+226:Sech - 911.ogg
+227:Kodaline - All I Want.ogg
+228:Alan Walker - Faded.ogg
+229:Violet Days - Your Girl - Remix.ogg
+230:Alexander Stewart - i wish you cheated.ogg
+231:Marshmello - Silence.ogg
+232:Lil Peep - Falling Down - Bonus Track.ogg
+233:Fall Out Boy - Irresistible.ogg
+234:NF - Lie.ogg
+235:Yoandri - Cherry on Top.ogg
+236:Jack & Jack - Closure.ogg
+237:Kings of Leon - Waste A Moment.ogg
+238:Alex Palomo - Zumito.ogg
+239:KAROL G - Tusa.ogg
+240:Major Lazer - Light It Up - Remix.ogg
+241:Bastille - Things We Lost In The Fire.ogg
+242:Imagine Dragons - Battle Cry.ogg
+243:Young the Giant - Cough Syrup.ogg
+244:5 Seconds of Summer - Youngblood.ogg
+245:Camila Cabello - Havana (feat. Young Thug).ogg
+246:Edith Whiskers - Home.ogg
+247:Bad Bunny - Me Porto Bonito.ogg
+248:AJR - Wow, I'm Not Crazy.ogg
+249:Marshmello - Happier.ogg
+250:Panic! At The Disco - Death of a Bachelor.ogg
+251:Journey - Separate Ways (Worlds Apart).ogg
+252:The Wanted - Glad You Came.ogg
+253:zzoilo - Mon Amour.ogg
+254:Benny Benassi - Cinema (feat. Gary Go) - Radio Edit.ogg
+255:FMK - AYNEA REMIX.ogg
+256:+Músicas - Diamante Salvaje - Día Internacional de la Mujer.ogg
+257:Khalid - Better.ogg
+258:Karina y Marina - Gemelas y Estrellas.ogg
+259:Avicii - Wake Me Up.ogg
+260:League of Legends - Raise Up The Lights (2018 All-Star Event).ogg
+261:Nightcore - Monster (Dotexe Remix).ogg
+262:BANNERS - Someone To You.ogg
+263:Imagine Dragons - The Unknown.ogg
+264:Rich Music LTD - Quizas.ogg
+265:Matthew Parker - Adventure.ogg
+266:Twenty One Pilots - Car Radio.ogg
+267:Alan Walker - Alone.ogg
+268:Jon Bellion - Blu.ogg
+269:Nano - Hold On.ogg
+270:Lil Wayne - Scared of the Dark (feat. XXXTENTACION).ogg
+271:Jesse & Joy - Chocolate.ogg
+272:HAZRD - Waiting.ogg
+273:Michael Bublé - Haven't Met You Yet.ogg
+274:Loud Forest - Wake Up.ogg
+275:KREAM - Know This Love (feat. Litens).ogg
+276:GROUPLOVE - Colours.ogg
+277:AJR - World's Smallest Violin.ogg
+278:Ziv Zaifman - A Million Dreams.ogg
+279:Abraham Mateo - Me Vuelvo Loco.ogg
+280:Katy McAllister - Real Love.ogg
+281:Marmi - Tu Foto Del DNI.ogg
+282:KAROL G - EL MAKINON.ogg
+283:Imagine Dragons - On Top Of The World.ogg
+284:Foster The People - Pumped Up Kicks.ogg
+285:Jay Sean - Down.ogg
+286:Twenty One Pilots - Trees.ogg
+287:Paolo Agamio - CONTIGO.ogg
+288:llvna - Tu lista de Spotify.ogg
+289:The White Stripes - We're Going To Be Friends.ogg
+290:Panic! At The Disco - Roaring 20s.ogg
+291:Bad Bunny - Si Estuviésemos Juntos.ogg
+292:Avicii - SOS.ogg
+293:The Heydaze - New Religion.ogg
+294:Motion City Soundtrack - This Is For Real.ogg
+295:Sleeping Wolf - New Kings.ogg
+296:Post Malone - Congratulations.ogg
+297:Bad Bunny - A Tu Merced.ogg
+298:Daddy Yankee - Limbo.ogg
+299:Khalid - The Ways (with Swae Lee).ogg
+300:OneRepublic - Feel Again.ogg
+301:Alan Walker - Lost Control.ogg
+302:AJR - Turning Out.ogg
+303:Michael Bublé - I Believe in You.ogg
+304:Jon Bellion - Ungrateful Eyes.ogg
+305:Daddy Yankee - Lo Que Pasó, Pasó.ogg
+306:ADSO - Que Casualidad.ogg
+307:Mau y Ricky - Dolería.ogg
+308:KAROL G - Ocean.ogg
+309:Macklemore & Ryan Lewis - Can't Hold Us (feat. Ray Dalton).ogg
+310:Juan Rached - Tq para mi ✨.ogg
+311:Pinkzebra - Larger Than Life (feat. Benji Jackson).ogg
+312:Flo Rida - My House.ogg
+313:Macklemore - NO BAD DAYS (feat. Collett).ogg
+314:Kodaline - Hide and Seek.ogg
+315:Sofía Reyes - Casualidad.ogg
+316:MyKey - Runaway.ogg
+317:Martin Garrix - Forbidden Voices.ogg
+318:Luis Ángel Gómez Jaramillo - El Latido de mi Corazón.ogg
+319:Juan Ingaramo - Casamiento.ogg
+320:Ingratax - París.ogg
+321:Panic! At The Disco - This Is Gospel.ogg
+322:DJ Khalil - Elevate (feat. Denzel Curry, YBN Cordae, SwaVay, Trevor Rich).ogg
+323:Andy Grammer - Smoke Clears.ogg
+324:Camilo - Pesadilla.ogg
+325:Bad Bunny - De Museo.ogg
+326:Micro TDH - EL TREN.ogg
+327:Rauw Alejandro - Desesperados.ogg
+328:Panic! At The Disco - Collar Full.ogg
+329:Bring Me The Horizon - True Friends.ogg
+330:pewdiepie - Congratulations.ogg
+331:Javypablo - Quedaremos.ogg
+332:Journey - Don't Stop Believin'.ogg
+333:Imagine Dragons - Nothing Left To Say _ Rocks.ogg
+334:Macklemore - Marmalade (feat. Lil Yachty).ogg
+335:Party in Backyard - Bitch Lasagna.ogg
+336:Imagine Dragons - Next To Me.ogg
+337:Lukas Graham - Happy For You (feat. Ximena Sariñana).ogg
+338:American Authors - Best Day Of My Life.ogg
+339:Dennis Arana - Voy a Estar Bien.ogg
+340:Twenty One Pilots - Tear in My Heart.ogg
+341:J Balvin - Otra Noche Sin Ti.ogg
+342:Macklemore - Over It (feat. Donna Missal).ogg
+343:Martin Garrix - Summer Days (feat. Macklemore & Patrick Stump of Fall Out Boy).ogg
+344:Juliana - Electricidad (2:21am).ogg
+345:Austyn Johnson - A Million Dreams (Reprise).ogg
+346:Post Malone - Psycho (feat. Ty Dolla $ign).ogg
+347:Rudimental - These Days (feat. Jess Glynne, Macklemore & Dan Caplen).ogg
+348:Kygo - Stranger Things (feat. OneRepublic) - Alan Walker Remix.ogg
+349:Fall Out Boy - Young And Menace.ogg
+350:Disturbed - The Sound of Silence.ogg
+351:Taburete - Calçots & Mangos (feat. Jósean Log).ogg
+352:Imagine Dragons - I Bet My Life.ogg
+353:Bastille - Quarter Past Midnight.ogg
+354:Loren Allred - Never Enough (Reprise).ogg
+355:Imagine Dragons - Friction.ogg
+356:Train - Drive By.ogg
+357:LAGOS - Mónaco.ogg
+358:Calvin Harris - This Is What You Came For.ogg
+359:Twenty One Pilots - The Judge.ogg
+360:OneRepublic - I Lived.ogg
+361:TINI - Miénteme.ogg
+362:Bastille - Laura Palmer.ogg
+363:Martin Garrix - There for You.ogg
+364:The Vamps - Just My Type.ogg
+365:Paramore - Hard Times.ogg
+366:EVÍC - 24_7.ogg
+367:Macklemore - Good Old Days (feat. Kesha).ogg
+368:Eminem - River (feat. Ed Sheeran).ogg
+369:Bastille - Pompeii.ogg
+370:Andrekza - TÉ (feat. Carlos Sadness).ogg
+371:AJR - Overture.ogg
+372:Steve Aoki - Are You Lonely (feat. ISÁK).ogg
+373:Logic - 1-800-273-8255.ogg
+374:Alan Walker - Sky.ogg
+375:JVKE - this is what falling in love feels like - Leon Leiden Remix.ogg
+376:OneRepublic - Counting Stars.ogg
+377:Macklemore - Corner Store (feat. Dave B & Travis Thompson).ogg
+378:Alvaro Soler - La Cintura.ogg
+379:AJR - Three-Thirty.ogg
+380:Luis R Conriquez - Me Metí En El Ruedo.ogg
+381:Imagine Dragons - Natural.ogg
+382:AJR - Break My Face.ogg
+383:Shawn Mendes - In My Blood.ogg
+384:Avi Kaplan - Change on the Rise.ogg
+385:Mau y Ricky - 3 de La Mañana - con Sebastián Yatra & Mora.ogg
+386:Issam Alnajjar - Si Tu Vuelas - Hadal Ahbek [Alok Remix].ogg
+387:Eminem - Rap God.ogg
+388:Imagine Dragons - Yesterday.ogg
+389:Tones And I - Dance Monkey.ogg
+390:Duckwrth - Start a Riot.ogg
+391:Imagine Dragons - Mouth Of The River.ogg
+392:Offset - Ric Flair Drip (with Metro Boomin).ogg
+393:Imagine Dragons - It's Time.ogg
+394:AJR - Location - Recorded at Spotify Studios NYC.ogg
+395:Twenty One Pilots - Heathens.ogg
+396:Keala Settle - This Is Me.ogg
+397:Joe "Bean" Esposito - You're The Best.ogg
+398:La Fúmiga - Cap. 2: Havia de passar (feat. The Tyets).ogg
+399:Shawn Mendes - Stitches.ogg
+400:zzoilo - Matches.ogg
+401:Queen - We Are The Champions.ogg
+402:Mikecrack - Tú eras quien.ogg
+403:Cheat Codes - Feels Great (feat. Fetty Wap & CVBZ).ogg
+404:AJR - I'm Not Famous.ogg
+405:lovelytheband - broken.ogg
+406:Jon Bellion - All Time Low.ogg
+407:Nestior - Pompitas Rosas.ogg
+408:Los Tigres Del Norte - Qué Tal Si Eres Tu.ogg
+409:Tan Bionica - Beautiful.ogg
+410:AJR - Burn the House Down.ogg
+411:King Princess - 1950.ogg
+412:Bishop Briggs - Dream - Acoustic.ogg
+413:Juanmi Parreño - Cuando Tengamos 80.ogg
+414:Queen - Don't Stop Me Now.ogg
+415:Imagine Dragons - Believer.ogg
+416:Marshmello - Numb.ogg
+417:George Ezra - Pretty Shining People - Jack Wins Remix.ogg
+418:Steve Aoki - Pretender (feat. Lil Yachty & AJR).ogg
+419:The Lumineers - Ho Hey.ogg
+420:Bastille - These Streets.ogg
+421:OneRepublic - If I Lose Myself.ogg
+422:Queen - Now I'm Here.ogg
+423:Kodaline - Hell Froze Over.ogg
+424:Fall Out Boy - Champion.ogg
+425:La Isla Centeno - Aquí.ogg
+426:zzoilo - Menta.ogg
+427:KHEA - Loca Remix.ogg
+428:Forest Blakk - Love Me.ogg
+429:Andrew McMahon in the Wilderness - Fire Escape.ogg
+430:The Mowgli's - San Francisco.ogg
+431:Danny Ocean - Dorito & Coca-Cola.ogg
+432:Rochy RD - Ella No Es Tuya - Remix.ogg
+433:Queen - Fat Bottomed Girls.ogg
+434:Yøuth - Someone New.ogg
+435:Plain White T's - Hey There Delilah.ogg
+436:Queen - Crazy Little Thing Called Love.ogg
+437:The Afters - Moments Like This.ogg
+438:Lytos - Que No.ogg
+439:Lucas Requena - El Cuarteto De Ibai - Versión Oficial.ogg
+440:Bastille - Blame.ogg
+441:Kayla Diamond - Carnival Hearts.ogg
+442:NEFFEX - Memories.ogg
+443:Bastille - Laughter Lines - Bonus Track.ogg
+444:Rauw Alejandro - Todo De Ti.ogg
+445:Bastille - Weight Of Living, Pt. I - Bonus Track.ogg
+446:AJR - Call My Dad.ogg
+447:Pascal - Sonrisas.ogg
+448:The Lumineers - Ophelia.ogg
+449:Jesse & Joy - Respirar.ogg
+450:Quiròfan - Una Mica Més.ogg
+451:J Balvin - Qué Más Pues?.ogg
+452:Jonas Brothers - Sucker.ogg
+453:The Wombats - Lemon to a Knife Fight.ogg
+454:DJ Elements - Reggaeton Remix.ogg
+455:MKTO - Shoulda Known Better.ogg
+456:fun. - We Are Young (feat. Janelle Monáe).ogg
+457:Bastille - Bad Blood.ogg
+458:Selena Gomez - Back To You.ogg
+459:Justin Quiles - Loco.ogg
+460:Bastille - 4AM.ogg
+461:Luan Santana - MORENA.ogg
+462:Sam Smith - Stay With Me.ogg
+463:Sia - Cheap Thrills.ogg
+464:The Kid LAROI - STAY (with Justin Bieber).ogg
+465:AJR - No Grass Today.ogg
+466:Eminem - Killshot.ogg
+467:The Tyets - Menorca.ogg
+468:Alan Walker - Darkside.ogg
+469:daniel sabater - 2010.ogg
+470:Why Don't We - Hooked.ogg
+471:X Ambassadors - Unsteady.ogg
+472:Fitz and The Tantrums - HandClap.ogg
+473:Noah Kahan - False Confidence.ogg
+474:JVKE - golden hour.ogg
+475:Ed Sheeran - Shape of You.ogg
+476:Manuel Medrano - Nenita.ogg
+477:Flo Rida - Good Feeling.ogg
+478:WOS - MELÓN VINO.ogg
+479:Ruth B. - Lost Boy.ogg
+480:Fall Out Boy - The Phoenix.ogg
+481:Dirty Heads - Vacation.ogg
+482:The Script - Paint the Town Green.ogg
+483:American Authors - I Wanna Go Out.ogg
+484:Shawn Mendes - Never Be Alone.ogg
+485:Imagine Dragons - Dancing In The Dark.ogg
+486:Aitana - + (MÁS).ogg
+487:Queen - We Will Rock You.ogg
+488:Diego Valdés - 4 Noches.ogg
+489:The Proclaimers - I'm Gonna Be (500 Miles).ogg
+490:Charlie Puth - The Way I Am.ogg
+491:CNCO - Volverte a Ver.ogg
+492:Queen - Body Language.ogg
+493:Pablo Alborán - Saturno.ogg
+494:Bastille - Joy.ogg
+495:Imagine Dragons - Tiptoe.ogg
+496:Ansel Elgort - Thief.ogg
+497:Imagine Dragons - Dream.ogg
+498:Migrantes - Noche de Party.ogg
+499:Whosah - Make a Move.ogg
+500:Morat - Segundos Platos.ogg
+501:Panic! At The Disco - High Hopes.ogg
+502:Erlandsson - All My Life - Radio Edit.ogg
+503:Bruno Mars - That's What I Like - Alan Walker Remix.ogg
+504:TheFatRat - Fly Away.ogg
+505:Imagine Dragons - Every Night.ogg
+506:Scott Helman - Sweet Tooth.ogg
+507:Mora - Volando - Remix.ogg
+508:Twenty One Pilots - House of Gold.ogg
+509:Bastille - The Silence - Bonus Track.ogg
+510:CNCO - Dejaría Todo.ogg
+511:Blackpanda - miss u.ogg
+512:CNCO - Llegaste Tú.ogg
+513:Steve Aoki - Waste It On Me (feat. BTS).ogg
+514:The Vamps - All Night.ogg
+515:Siete de Picas - Palm Beach.ogg
+516:BANNERS - Got It In You - Acoustic.ogg
+517:Loren Allred - Never Enough.ogg
+518:David Rees - De Ellos Aprendí.ogg
+519:Eminem - Cleanin' Out My Closet.ogg
+520:Drake - In My Feelings.ogg
+521:Kodaline - Brother.ogg
+522:Jon Bellion - Maybe IDK.ogg
+523:Post Malone - Candy Paint.ogg
+524:Shawn Mendes - If I Can't Have You.ogg
+525:Imagine Dragons - Thief.ogg
+526:Twenty One Pilots - Chlorine (Mexico City).ogg
+527:Khalid - Young Dumb & Broke.ogg
+528:Imagine Dragons - I’m So Sorry.ogg
+529:Why Don't We - Unbelievable.ogg
+530:Steve Aoki - Just Hold On.ogg
+531:DJ Snake - Let Me Love You.ogg
+532:Sie7e - Tengo Tu Love.ogg
+533:OneRepublic - Marchin On.ogg
+534:Imagine Dragons - Thunder _ Young Dumb & Broke (with Khalid) - Medley.ogg
+535:Bad Bunny - Un Ratito.ogg
+536:Sterkøl - You & I (feat. Tyler Sjöström & Bertrand Lacoste) - VINIL Remix.ogg
+537:The Script - Flares.ogg
+538:Queen - Bicycle Race.ogg
+539:Hugh Jackman - The Other Side.ogg
+540:iñigo quintero - Si No Estás.ogg
+541:Imagine Dragons - The Fall.ogg
+542:James Arthur - Naked.ogg
+543:Ed Sheeran - Galway Girl.ogg
+544:Joji - Sanctuary.ogg
+545:Imagine Dragons - Amsterdam.ogg
+546:40 GRADOS - Mírame.ogg
+547:Imagine Dragons - Release.ogg
+548:ZAYN - Dusk Till Dawn (feat. Sia) - Radio Edit.ogg
+549:Khalid - Location.ogg
+550:Reik - A Un Paso De La Luna - Remix.ogg
+551:Queen - Somebody To Love.ogg
+552:Bala - Sirena.ogg
+553:Welcome 2 Chiraq - I'm Da Man.ogg
+554:Avicii - SOS (feat. Aloe Blacc).ogg
+555:I DONT KNOW HOW BUT THEY FOUND ME - Choke.ogg
+556:BackPaccr - Mountaintop.ogg
+557:NF - Let You Down.ogg
+558:Half the Animal - Babylon.ogg
+559:Alex Ponce - Cerrando Ciclos.ogg
+560:Banda Tierra Sagrada - La Buena y la Mala.ogg
+561:Bizarrap - Shakira: Bzrp Music Sessions, Vol. 53.ogg
+562:AJR - 100 Bad Days.ogg
+563:Cage The Elephant - Ain't No Rest for the Wicked.ogg
+564:TOTO - Africa.ogg
+565:Elijah N - Stick Together.ogg
+566:Jesse & Joy - Dueles.ogg
+567:Ha*Ash - 30 de Febrero (feat. Abraham Mateo).ogg
+568:Mark Ronson - Uptown Funk (feat. Bruno Mars).ogg
+569:Hens - Dos Días al Mes.ogg
+570:We The Kings - Queen of Hearts.ogg
+571:Ron Pope - A Drop in the Ocean.ogg
+572:AJR - Pretender - Acoustic.ogg
+573:Florida Georgia Line - Simple.ogg
+574:Phillip Phillips - Home.ogg
+575:The Change - Hora Loca.ogg
+576:Jorge Blanco - Escondida.ogg
+577:Bastille - Nocturnal Creatures.ogg
+578:Vince Staples - Home.ogg
+579:Queen - Good Old Fashioned Lover Boy.ogg
+580:Clean Bandit - Rather Be (feat. Jess Glynne).ogg
+581:Llane - Alcancía.ogg
+582:Juice WRLD - Lucid Dreams.ogg
+583:Eslabon Armado - Ella Baila Sola.ogg
+584:Talking Heads - Burning Down the House.ogg
+585:OneRepublic - Life In Color.ogg
+586:Hayd - Superhero.ogg
+587:The Script - Superheroes.ogg
+588:grandson - Blood __ Water.ogg
+589:Don Diablo - You Can't Change Me.ogg
+590:Thea Hjelmeland - Hands Off.ogg
+591:X Ambassadors - Renegades.ogg
+592:Oliver Anthony Music - Rich Men North of Richmond.ogg
+593:Jason Mraz - Have It All.ogg
+594:Masketta Fall - Parachute.ogg
+595:Danny Ocean - Swing.ogg
+596:AJR - Sober Up.ogg
+597:Imagine Dragons - Second Chances.ogg
+598:Ozuna - Solita.ogg
+599:Halsey - Bad At Love.ogg
+600:Ale Aguirre - Guerra Perdida.ogg
+601:Don Omar - No Sigue Modas Aka Ella No Sigue Modas.ogg
+602:Mumford & Sons - Little Lion Man.ogg
+603:Coldplay - Fix You.ogg
+604:Dean Lewis - 7 Minutes.ogg
+605:Train - Hey, Soul Sister.ogg
+606:Francely Abreuu - neverland.ogg
+607:Bastille - Daniel In The Den.ogg
+608:LÚA - Te Prometo.ogg
+609:Danny Ocean - Fuera del mercado.ogg
+610:Dean Lewis - Be Alright.ogg
+611:Peso Pluma - PRC.ogg
+612:Queen - Seven Seas Of Rhye.ogg
+613:Imagine Dragons - Radioactive.ogg
+614:Imagine Dragons - Rise Up.ogg
+615:Javier Ramirez - Un Color a la Vez.ogg
+616:Alan Walker - Fade.ogg
+617:AJR - Drama.ogg
+618:Drake Bell - Fuego Lento.ogg
+619:AJR - Birthday Party.ogg
+620:Selena Gomez - Wolves.ogg
+621:Neck Deep - Where Do We Go When We Go.ogg
+622:Portugal. The Man - Feel It Still.ogg
+623:Bleachers - I Wanna Get Better.ogg
+624:Shinedown - Enemies.ogg
+625:Luh Kel - Wrong.ogg
+626:Fall Out Boy - Alone Together.ogg
+627:American Authors - Say Amen (feat. Billy Raffoul).ogg
+628:White Comic - This Aint The End Of Me.ogg
+629:AJR - The Good Part.ogg
+630:A Great Big World - Kaleidoscope.ogg
+631:Carlos Vives - Canción Bonita.ogg
+632:Panic! At The Disco - Emperor's New Clothes.ogg
+633:Fran Argiro - Si Me Tomo una Cerveza.ogg
+634:Unkle Adams - The Underdog.ogg
+635:Queen - Radio Ga Ga.ogg
+636:Fall Out Boy - My Songs Know What You Did In The Dark (Light Em Up).ogg
+637:Queen - You're My Best Friend.ogg
+638:Electric Light Orchestra - Mr. Blue Sky.ogg
+639:Eminem - Godzilla (feat. Juice WRLD).ogg
+640:Alec Benjamin - If We Have Each Other.ogg
+641:Grizfolk - Waking Up The Giants.ogg
+642:Falling In Reverse - Champion.ogg
+643:Benson Boone - Beautiful Things.ogg
+644:Morat - Cómo Te Atreves.ogg
+645:GOMZ - De Cristal.ogg
+646:Imagine Dragons - Monster.ogg
+647:Marshmello - One Thing Right.ogg
+648:Neon Trees - Everybody Talks.ogg
+649:zzoilo - Mon Amour - Remix.ogg
+650:OneRepublic - Connection.ogg
+651:Eminem - Greatest.ogg
+652:Imagine Dragons - Cha-Ching (Till We Grow Older).ogg
+653:Edward Sharpe & The Magnetic Zeros - Home.ogg
+654:The Chainsmokers - Hope.ogg
+655:Elgate feat. Spektrem - Shine.ogg
+656:Breakbot - Baby I'm Yours - feat. Irfrane.ogg
+657:Imagine Dragons - Start Over.ogg
+658:Imagine Dragons - Who We Are.ogg
+659:The Vamps - Somebody To You.ogg
+660:Bad Bunny - YO VISTO ASÍ.ogg
+661:EMJAY - Feelin’ U.ogg
+662:CARSTN - Chasing Tomorrow.ogg
+663:Imagine Dragons - Gold.ogg
+664:Papa Ya - Outta Here (feat. Con Bro Chill).ogg
+665:Jessie Reyez - Great One.ogg
+666:Carlos Vives - Besos en Cualquier Horario.ogg
+667:Pentatonix - Hallelujah.ogg
+668:Dan Croll - Bad Boy.ogg
+669:for KING & COUNTRY - Burn The Ships.ogg
+670:Natalie Taylor - Surrender.ogg
+671:Sergi - Seguro Te Pierdo.ogg
+672:Journey - Any Way You Want It.ogg
+673:La La Love You - El Fin del Mundo.ogg
+674:Bug Hunter - Be Glad I Love You (Go to Bed).ogg
+675:BANNERS - Empires On Fire - Acoustic.ogg
+676:Labrinth - Misbehaving.ogg
+677:CNCO - Hey DJ.ogg
+678:Charlie Puth - Attention.ogg
+679:benny blanco - Eastside (with Halsey & Khalid).ogg
+680:Matt Maeson - Cringe.ogg
+681:Carlos Sadness - Chocolate y Nata.ogg
+682:Kesha - This Is Me (From the Greatest Showman).ogg
+683:Elektronomia - Sparks.ogg
+684:Jon Bellion - Stupid Deep.ogg
+685:Twenty One Pilots - Stressed Out.ogg
+686:Imagine Dragons - Trouble.ogg
+687:Frank Walker - Leave the Light On.ogg
+688:AJR - Karma.ogg
+689:Los Claxons - Sayonara.ogg
+690:Elektronomia - Energy.ogg
+691:Andy Grammer - Pushing.ogg
+692:Chord Overstreet - Hold On.ogg
+693:Why Don't We - Big Plans.ogg
+694:Bastille - Flaws.ogg
+695:Hearts & Colors - LA On A Saturday Night.ogg
+696:zzoilo - Superman.ogg
+697:Zedd - Stay.ogg
+698:Jack & Jack - No One Compares To You.ogg
+699:Galantis - No Money.ogg
+700:Joel DELEÓN - La Culpa.ogg
+701:Álvaro De Luna - Juramento eterno de sal.ogg
+702:Michelle Williams - Tightrope.ogg
+703:Rolex Quintana - No me voy a detener.ogg
+704:Mike Perry - The Ocean (feat. Shy Martin).ogg
+705:Imagine Dragons - Bleeding Out.ogg
+706:Alkilados - Monalisa.ogg
+707:American Authors - I'm Born To Run.ogg
+708:Bastille - Oblivion.ogg
+709:Humbe - EL POETA.ogg
+710:Buhos - T'he Trobat a Faltar.ogg
+711:half•alive - still feel..ogg
+712:Bad Bunny - Si Veo a Tu Mamá.ogg
+713:Ansel Elgort - All I Think About Is You.ogg
+714:Modest Mouse - Lampshades on Fire.ogg
+715:MKTO - Just Imagine It.ogg
+716:Nio Garcia - AM.ogg
+717:Khalid - Angels.ogg
+718:Travis Scott - SICKO MODE.ogg
+719:Gera MX - Botella Tras Botella.ogg
+720:Alan Walker - Do It All for You.ogg
+721:zzoilo - Mamá.ogg
+playlist_end
