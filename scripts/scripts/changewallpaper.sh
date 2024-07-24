@@ -14,6 +14,7 @@ swww img --transition-type wipe --transition-angle 30 --transition-step 200 $1
 #Sets pywal color scheme
 wal -i $1 -n
 
+# cat /home/brigham/.cache/wal/sequences
 #Refreshes swaync
 swaync-client -rs
 mkdir -p "$HOME/.current_wallpaper"

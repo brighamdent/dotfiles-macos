@@ -23,7 +23,8 @@ alias music 'tmux new-session -s $fish_pid "tmux source-file ~/.config/ncmpcpp/t
 alias ncmp 'TERM=xterm ncmpcpp'
 
 #Starts wal on boot
-wal -w > /dev/null 2>&1
+wal -q -w > /dev/null 2>&1
+# source ~/.cache/wal/sequences
 # cat /home/brigham/.cache/wal/sequences
 
 #Variables

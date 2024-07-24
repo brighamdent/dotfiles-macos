@@ -21,7 +21,8 @@ export QT_STYLE_OVERRIDE=Adwaita-dark
 export MUSIC_DIR=~/media/music/Liked-Songs/
 
 #Starts wall on boot
-cat /home/brigham/.cache/wal/sequences
+wal -w
+# cat /home/brigham/.cache/wal/sequences
 PS1='[\u@\h \W]\$ '
 
 #Functions for Fzf "Find file in current directory"

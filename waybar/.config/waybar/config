@@ -3,7 +3,8 @@
     "modules-center": ["hyprland/workspaces"],
     "modules-left": ["clock"],
     /* "modules-right": ["tray", "custom/scratchpad-indicator", "pulseaudio", "custom/power"], */
-    "modules-right": ["tray", "custom/scratchpad-indicator", "network", "pulseaudio", "custom/power"],
+    "modules-right": ["tray", "custom/scratchpad-indicator", "network",
+    "pulseaudio", "battery", "custom/power"],
 
         "hyprland/workspaces" : {
         "on-click": "activate",
@@ -31,7 +32,7 @@
     },
     "network": {
         "format-wifi": " ",
-        "format-ethernet": "🔗",
+        "format-ethernet": " 🔗",
         "format-disconnected": "🚫", 
         "max-length": 50,
         "on-click": "kitty -e 'nmtui'",
@@ -59,11 +60,11 @@
 		"on-click": "gnome-calendar"
     },
     "pulseaudio": {
-        "format": "{volume}% {icon} ",
+        "format": "{volume} {icon} ",
         "format-bluetooth": "{volume}% {icon} {format_source}",
         "format-bluetooth-muted": " {icon} {format_source}",
         "format-muted": "0% {icon} ",
-        "format-source": "{volume}% ",
+        "format-source": "{volume} ",
         "format-source-muted": "",
         "format-icons": {
             "headphone": "",
@@ -76,6 +77,18 @@
         },
         "on-click": "swaync-client -t -sw"
     },
+"battery": {
+        	"states": {
+            		"warning": 30,
+            		"critical": 15
+        	},
+        	"format": "{capacity}% {icon} ",
+        	"format-charging": "{capacity}% ⚡ ",
+        	"format-plugged": "{capacity}% 🔌",
+        	"format-alt": "{time} {icon}",
+          "format-icons": [" ", " ", " ", " ", " "],
+          "interval": 3
+	},
 	"custom/power": {
 		"format": " ",
     "on-click": "wlogout -b 4 -T 400 -B 400",

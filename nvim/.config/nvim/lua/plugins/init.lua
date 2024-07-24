@@ -49,82 +49,84 @@ return {
   },
   {
     "altermo/ultimate-autopair.nvim",
-    event = { "InsertEnter", "CmdlineEnter" },
+    -- event = { "InsertEnter", "CmdlineEnter" },
+    lazy = false,
     branch = "v0.6", --recomended as each new version will have breaking changes
     opts = {
+      map_cr = true
       --Config goes here
     },
-    {
-      "folke/trouble.nvim",
-      dependencies = { "nvim-tree/nvim-web-devicons" },
-      opts = {
-        -- your configuration comes here
-        -- or leave it empty ;to use the default settings
-        -- refer to the configuration section below
-      },
-      keys = {
-        {
-          "<leader>lf",
-          "<cmd>Trouble diagnostics toggle<cr>",
-          desc = "Diagnostics (Trouble)",
-        },
-        {
-          "<leader>xX",
-          "<cmd>Trouble diagnostics toggle filter.buf=0<cr>",
-          desc = "Buffer Diagnostics (Trouble)",
-        },
-        {
-          "<leader>cs",
-          "<cmd>Trouble symbols toggle focus=false<cr>",
-          desc = "Symbols (Trouble)",
-        },
-        {
-          "<leader>cl",
-          "<cmd>Trouble lsp toggle focus=false win.position=right<cr>",
-          desc = "LSP Definitions / references / ... (Trouble)",
-        },
-        {
-          "<leader>xL",
-          "<cmd>Trouble loclist toggle<cr>",
-          desc = "Location List (Trouble)",
-        },
-        {
-          "<leader>xQ",
-          "<cmd>Trouble qflist toggle<cr>",
-          desc = "Quickfix List (Trouble)",
-        },
-      },
-      lazy = false,
+  },
+  {
+    "folke/trouble.nvim",
+    dependencies = { "nvim-tree/nvim-web-devicons" },
+    opts = {
+      -- your configuration comes here
+      -- or leave it empty ;to use the default settings
+      -- refer to the configuration section below
     },
-    {
-      "hrsh7th/nvim-cmp",
-      opts = function()
-        local cmp = require "cmp"
-        cmp.setup.filetype({ "sql" }, {
-          sources = {
-            { name = "vim-dadbod-completion" },
-            { name = "buffer" },
-          },
-        })
-      end,
-
-      dependencies = {
-        {
-          -- snippet plugin
-          "L3MON4D3/LuaSnip",
-          config = function(_, opts)
-            -- load default luasnip config;
-            -- require("plugins.configs.others").luasnip(opts)
-
-            local luasnip = require "luasnip"
-            luasnip.filetype_extend("javascriptreact", { "html" })
-            luasnip.filetype_extend("typescriptreact", { "react-ts", "typescript", "html" })
-            luasnip.filetype_extend("javascriptreact", { "react", "javascript", "html" })
-            luasnip.filetype_extend("javascript", { "react" })
-            luasnip.filetype_extend("vue", { "html" })
-            require("luasnip/loaders/from_vscode").lazy_load()
-          end,
+    keys = {
+      {
+        "<leader>lf",
+        "<cmd>Trouble diagnostics toggle<cr>",
+        desc = "Diagnostics (Trouble)",
+      },
+      {
+        "<leader>xX",
+        "<cmd>Trouble diagnostics toggle filter.buf=0<cr>",
+        desc = "Buffer Diagnostics (Trouble)",
+      },
+      {
+        "<leader>cs",
+        "<cmd>Trouble symbols toggle focus=false<cr>",
+        desc = "Symbols (Trouble)",
+      },
+      {
+        "<leader>cl",
+        "<cmd>Trouble lsp toggle focus=false win.position=right<cr>",
+        desc = "LSP Definitions / references / ... (Trouble)",
+      },
+      {
+        "<leader>xL",
+        "<cmd>Trouble loclist toggle<cr>",
+        desc = "Location List (Trouble)",
+      },
+      {
+        "<leader>xQ",
+        "<cmd>Trouble qflist toggle<cr>",
+        desc = "Quickfix List (Trouble)",
+      },
+    },
+    lazy = false,
+  },
+  {
+    "hrsh7th/nvim-cmp",
+    opts = function()
+      local cmp = require "cmp"
+      cmp.setup.filetype({ "sql" }, {
+        sources = {
+          { name = "vim-dadbod-completion" },
+          { name = "buffer" },
         },
+      })
+    end,
+
+    dependencies = {
+      {
+        -- snippet plugin
+        "L3MON4D3/LuaSnip",
+        config = function(_, opts)
+          -- load default luasnip config;
+          -- require("plugins.configs.others").luasnip(opts)
+
+          local luasnip = require "luasnip"
+          luasnip.filetype_extend("javascriptreact", { "html" })
+          luasnip.filetype_extend("typescriptreact", { "react-ts", "typescript", "html" })
+          luasnip.filetype_extend("javascriptreact", { "react", "javascript", "html" })
+          luasnip.filetype_extend("javascript", { "react" })
+          luasnip.filetype_extend("vue", { "html" })
+          require("luasnip/loaders/from_vscode").lazy_load()
+        end,
       },
     },
   },
@@ -341,40 +343,36 @@ return {
   --   'preservim/vim-pencil',
   --   cmd = 'PencilToggle'
   -- },
-  {
-    "gaoDean/autolist.nvim",
-    ft = {
-      "markdown",
-      "text",
-      "tex",
-      "plaintex",
-      "norg",
-    },
-    config = function()
-      require("autolist").setup()
-
-      vim.keymap.set("i", "<tab>", "<cmd>AutolistTab<cr>")
-      vim.keymap.set("i", "<s-tab>", "<cmd>AutolistShiftTab<cr>")
-      -- vim.keymap.set("i", "<c-t>", "<c-t><cmd>AutolistRecalculate<cr>") -- an example of using <c-t> to indent
-      vim.keymap.set("i", "<CR>", "<CR><cmd>AutolistNewBullet<cr>")
-      vim.keymap.set("n", "o", "o<cmd>AutolistNewBullet<cr>")
-      vim.keymap.set("n", "O", "O<cmd>AutolistNewBulletBefore<cr>")
-      vim.keymap.set("n", "<CR>", "<cmd>AutolistToggleCheckbox<cr><CR>")
-      -- vim.keymap.set("n", "<C-r>", "<cmd>AutolistRecalculate<cr>")
-
-      -- cycle list types with dot-repeat
-      vim.keymap.set("n", "<leader>cn", require("autolist").cycle_next_dr, { expr = true })
-      vim.keymap.set("n", "<leader>cp", require("autolist").cycle_prev_dr, { expr = true })
-
-      -- if you don't want dot-repeat
-      -- vim.keymap.set("n", "<leader>cn", "<cmd>AutolistCycleNext<cr>")
-      -- vim.keymap.set("n", "<leader>cp", "<cmd>AutolistCycleNext<cr>")
-
-      -- functions to recalculate list on edit
-      vim.keymap.set("n", ">>", ">><cmd>AutolistRecalculate<cr>")
-      vim.keymap.set("n", "<<", "<<<cmd>AutolistRecalculate<cr>")
-      vim.keymap.set("n", "dd", "dd<cmd>AutolistRecalculate<cr>")
-      vim.keymap.set("v", "d", "d<cmd>AutolistRecalculate<cr>")
-    end,
-  },
+  -- {
+  --   "gaoDean/autolist.nvim",
+  --   ft = {
+  --     "markdown",
+  --   },
+  --   config = function()
+  --     require("autolist").setup()
+  --
+  --     vim.keymap.set("i", "<tab>", "<cmd>AutolistTab<cr>")
+  --     vim.keymap.set("i", "<s-tab>", "<cmd>AutolistShiftTab<cr>")
+  --     vim.keymap.set("i", "<c-t>", "<c-t><cmd>AutolistRecalculate<cr>") -- an example of using <c-t> to indent
+  --     vim.keymap.set("i", "<CR>", "<CR><cmd>AutolistNewBullet<cr>")
+  --     vim.keymap.set("n", "o", "o<cmd>AutolistNewBullet<cr>")
+  --     vim.keymap.set("n", "O", "O<cmd>AutolistNewBulletBefore<cr>")
+  --     -- vim.keymap.set("n", "<CR>", "<cmd>AutolistToggleCheckbox<cr><CR>")
+  --     -- vim.keymap.set("n", "<C-r>", "<cmd>AutolistRecalculate<cr>")
+  --
+  --     -- cycle list types with dot-repeat
+  --     vim.keymap.set("n", "<leader>cn", require("autolist").cycle_next_dr, { expr = true })
+  --     vim.keymap.set("n", "<leader>cp", require("autolist").cycle_prev_dr, { expr = true })
+  --
+  --     -- if you don't want dot-repeat
+  --     -- vim.keymap.set("n", "<leader>cn", "<cmd>AutolistCycleNext<cr>")
+  --     -- vim.keymap.set("n", "<leader>cp", "<cmd>AutolistCycleNext<cr>")
+  --
+  --     -- functions to recalculate list on edit
+  --     vim.keymap.set("n", ">>", ">><cmd>AutolistRecalculate<cr>")
+  --     vim.keymap.set("n", "<<", "<<<cmd>AutolistRecalculate<cr>")
+  --     vim.keymap.set("n", "dd", "dd<cmd>AutolistRecalculate<cr>")
+  --     vim.keymap.set("v", "d", "d<cmd>AutolistRecalculate<cr>")
+  --   end,
+  -- },
 }
