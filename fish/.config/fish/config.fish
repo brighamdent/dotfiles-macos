@@ -6,7 +6,6 @@ set -x PATH $HOME/bin $PATH
 set -x MUSIC_DIR ~/media/music/Liked-Songs/
 
 
-
 bind \cH backward-kill-word
 #List of aliases
 alias ll 'ls -l'
@@ -21,11 +20,13 @@ alias tmfloat '~/scripts/tmux_session_float.sh'
 alias tmcode '~/scripts/tmux_session_code.sh'
 alias music 'tmux new-session -s $fish_pid "tmux source-file ~/.config/ncmpcpp/tsession"'
 alias ncmp 'TERM=xterm ncmpcpp'
+alias yt-rip-audio "yt-dlp -x --audio-format mp3 -P /home/brigham/media/music/Sound\ Scapes/"
 
 #Starts wal on boot
-wal -q -w > /dev/null 2>&1
+# wal -q -w
+# wal -R -q
 # source ~/.cache/wal/sequences
-# cat /home/brigham/.cache/wal/sequences
+cat /home/brigham/.cache/wal/sequences
 
 #Variables
 set GTK_THEME -g Adwaita:dark

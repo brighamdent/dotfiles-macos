@@ -1,12 +1,15 @@
 -- This file  needs to have same structure as nvconfig.lua
 -- https://github.com/NvChad/NvChad/blob/v2.5/lua/nvconfig.lua
----@type ChadrcConfig
+-- -@type ChadrcConfig
 local M = {}
+
+M.base46 = {
+  transparency = true
+}
 
 M.ui = {
   theme = "onedark",
   theme_toggle = { "bearded-arc", "one_light" },
-  transparency = true,
   -- hl_override = highlights.override,
   -- hl_add = highlights.add,
   statusline = {

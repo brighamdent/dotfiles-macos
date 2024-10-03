@@ -35,7 +35,7 @@
         {
                     "type": "host",
                     "key": "  ",
-                     "format": "{/2}{-}{/}{2}({?3})"
+                     "format": "{3}"
                 },
         {
             "type": "kernel",
@@ -58,12 +58,12 @@
             "key": " 󰔚 "
         },
         {
-            "type": "memory",
-            "key": " 󰍛 "
-        },
-        {
             "type": "packages",
             "key": "  "
+        },
+        {
+            "type": "memory",
+            "key": " 󰍛 "
         },
         {
             "type": "disk",

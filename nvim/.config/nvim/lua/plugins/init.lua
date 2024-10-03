@@ -1,7 +1,7 @@
 return {
   {
     "stevearc/conform.nvim",
-    event = 'BufWritePre', -- uncomment for format on save
+    event = "BufWritePre", -- uncomment for format on save
     config = function()
       require "configs.conform"
     end,
@@ -53,7 +53,7 @@ return {
     lazy = false,
     branch = "v0.6", --recomended as each new version will have breaking changes
     opts = {
-      map_cr = true
+      map_cr = true,
       --Config goes here
     },
   },
@@ -135,9 +135,9 @@ return {
     lazy = false,
     opts = {
       -- Defaults
-      enable_close = true,          -- Auto close tags
-      enable_rename = true,         -- Auto rename pairs of tags
-      enable_close_on_slash = false -- Auto close on trailing </
+      enable_close = true, -- Auto close tags
+      enable_rename = true, -- Auto rename pairs of tags
+      enable_close_on_slash = false, -- Auto close on trailing </
     },
     -- Also override individual filetype configs, these take priority.
     -- Empty by default, useful if one of the "opts" global settings
@@ -184,7 +184,7 @@ return {
   },
   {
     "JoosepAlviste/nvim-ts-context-commentstring",
-    lazy = false
+    lazy = false,
   },
   {
     "numToStr/Comment.nvim",
@@ -245,40 +245,84 @@ return {
       require("harpoon"):setup()
     end,
     keys = {
-      { "<leader>A", function() require("harpoon"):list():add() end,    desc = "harpoon file", },
-      { "<leader>r", function() require("harpoon"):list():remove() end, desc = "harpoon file", },
+      {
+        "<leader>A",
+        function()
+          require("harpoon"):list():add()
+        end,
+        desc = "harpoon file",
+      },
+      {
+        "<leader>r",
+        function()
+          require("harpoon"):list():remove()
+        end,
+        desc = "harpoon file",
+      },
       {
         "<leader>a",
         function()
-          local harpoon = require("harpoon")
+          local harpoon = require "harpoon"
           harpoon.ui:toggle_quick_menu(harpoon:list())
         end,
         desc = "harpoon quick menu",
       },
-      { "<leader>1", function() require("harpoon"):list():select(1) end, desc = "harpoon to file 1", },
-      { "<leader>2", function() require("harpoon"):list():select(2) end, desc = "harpoon to file 2", },
-      { "<leader>3", function() require("harpoon"):list():select(3) end, desc = "harpoon to file 3", },
-      { "<leader>4", function() require("harpoon"):list():select(4) end, desc = "harpoon to file 4", },
-      { "<leader>5", function() require("harpoon"):list():select(5) end, desc = "harpoon to file 5", },
+      {
+        "<leader>1",
+        function()
+          require("harpoon"):list():select(1)
+        end,
+        desc = "harpoon to file 1",
+      },
+      {
+        "<leader>2",
+        function()
+          require("harpoon"):list():select(2)
+        end,
+        desc = "harpoon to file 2",
+      },
+      {
+        "<leader>3",
+        function()
+          require("harpoon"):list():select(3)
+        end,
+        desc = "harpoon to file 3",
+      },
+      {
+        "<leader>4",
+        function()
+          require("harpoon"):list():select(4)
+        end,
+        desc = "harpoon to file 4",
+      },
+      {
+        "<leader>5",
+        function()
+          require("harpoon"):list():select(5)
+        end,
+        desc = "harpoon to file 5",
+      },
     },
   },
   {
-    'edluffy/hologram.nvim',
+    "edluffy/hologram.nvim",
     lazy = false,
   },
   {
     "folke/noice.nvim",
-    lazy = false,
+    lazy = true,
+    event = "VeryLazy",
+
     dependencies = {
       "MunifTanjim/nui.nvim",
       {
         "rcarriga/nvim-notify",
         config = function()
-          require('notify').setup({
+          require("notify").setup {
             background_colour = "#000000",
-          })
-        end
-      }
+          }
+        end,
+      },
     },
     config = function()
       require("noice").setup {
@@ -295,36 +339,36 @@ return {
             enabled = false,
           },
         },
-        hover = {
-          enabled = false,
-        },
+        -- hover = {
+        --   enabled = false,
+        -- },
         presets = {
           -- bottom_search = true,         -- use a classic bottom cmdline for search
           -- command_palette = true,       -- position the cmdline and popupmenu together
           long_message_to_split = true, -- long messages will be sent to a split
-          -- inc_rename = false,           -- enables an input dialog for inc-rename.nvim
-          -- lsp_doc_border = false,       -- add a border to hover docs and signature help
+          -- inc_rename = false, -- enables an input dialog for inc-rename.nvim
+          lsp_doc_border = false, -- add a border to hover docs and signature help
         },
       }
     end,
   },
   {
-    'tpope/vim-dadbod',
+    "tpope/vim-dadbod",
     cmd = {
-      "DB"
-    }
+      "DB",
+    },
   },
   {
-    'kristijanhusak/vim-dadbod-ui',
+    "kristijanhusak/vim-dadbod-ui",
     dependencies = {
-      { 'tpope/vim-dadbod',                     lazy = true },
-      { 'kristijanhusak/vim-dadbod-completion', ft = { 'sql', 'mysql', 'plsql' }, lazy = true },
+      { "tpope/vim-dadbod", lazy = true },
+      { "kristijanhusak/vim-dadbod-completion", ft = { "sql", "mysql", "plsql" }, lazy = true },
     },
     cmd = {
-      'DBUI',
-      'DBUIToggle',
-      'DBUIAddConnection',
-      'DBUIFindBuffer',
+      "DBUI",
+      "DBUIToggle",
+      "DBUIAddConnection",
+      "DBUIFindBuffer",
     },
     init = function()
       -- Your DBUI configuration
@@ -332,16 +376,16 @@ return {
     end,
   },
   {
-    'kristijanhusak/vim-dadbod-completion',
+    "kristijanhusak/vim-dadbod-completion",
     init = function()
       -- Your DBUI configuration
       vim.g.db_ui_use_nvim_notify = 1
       vim.g.db_ui_use_nerd_fonts = 1
-    end
+    end,
   },
   -- {
-  --   'preservim/vim-pencil',
-  --   cmd = 'PencilToggle'
+  --   "preservim/vim-pencil",
+  --   cmd = "PencilToggle",
   -- },
   -- {
   --   "gaoDean/autolist.nvim",

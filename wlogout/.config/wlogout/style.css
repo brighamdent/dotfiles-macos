@@ -7,7 +7,9 @@
 window {
     font-size: 16pt;
     background: url("../../.current_wallpaper/currentwallpaperblurred.png");
-	  background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 } 
 
 button {
@@ -21,7 +23,8 @@ button {
     border-radius: 36px;
     margin: 10px;
     border: none;
-    min-width: 300px;
+    min-width: 150px;
+    min-height: 150px;
 }
 
 button:focus {
@@ -32,7 +35,8 @@ button:focus {
 button:hover {
     font-size:.1px;
     opacity: 0.4;
-    min-width: 300px;
+    min-width: 150px;
+    min-height: 150px;
     background-size: 50%;
     box-shadow: 0 0 10px 3px rgba(0,0,0,.4);
     background-color: @color6;

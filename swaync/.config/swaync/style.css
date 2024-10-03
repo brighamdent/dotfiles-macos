@@ -18,7 +18,7 @@
 .control-center .notification-row:hover {
   opacity: 1;
   background: @noti-bg-darker;
-  padding: 10px;
+  padding: 20px;
 }
 
 .notification-row {
