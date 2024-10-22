@@ -15,6 +15,13 @@ for _, lsp in ipairs(servers) do
   }
 end
 
+lspconfig.omnisharp.setup {
+  cmd = { "omnisharp", "--languageserver", "--hostPID", tostring(vim.fn.getpid()) },
+  on_attach = on_attach,
+  on_init = on_init,
+  capabilities = capabilities,
+  root_dir = lspconfig.util.root_pattern(".sln", ".csproj", ".git"),
+}
 -- typescript
 lspconfig.ts_ls.setup {
   on_attach = on_attach,

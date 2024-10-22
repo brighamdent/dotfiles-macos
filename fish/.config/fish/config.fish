@@ -21,6 +21,7 @@ alias tmcode '~/scripts/tmux_session_code.sh'
 alias music 'tmux new-session -s $fish_pid "tmux source-file ~/.config/ncmpcpp/tsession"'
 alias ncmp 'TERM=xterm ncmpcpp'
 alias yt-rip-audio "yt-dlp -x --audio-format mp3 -P /home/brigham/media/music/Sound\ Scapes/"
+alias homelab "ssh brigham@192.168.58"
 
 #Starts wal on boot
 # wal -q -w
