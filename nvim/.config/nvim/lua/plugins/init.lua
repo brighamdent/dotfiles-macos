@@ -383,6 +383,16 @@ return {
       vim.g.db_ui_use_nerd_fonts = 1
     end,
   },
+  {
+    "iamcco/markdown-preview.nvim",
+    cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
+    mappings = { "<leader>pv" },
+    build = "cd app && yarn install",
+    init = function()
+      vim.g.mkdp_filetypes = { "markdown" }
+    end,
+    ft = { "markdown" },
+  },
   -- {
   --   "preservim/vim-pencil",
   --   cmd = "PencilToggle",

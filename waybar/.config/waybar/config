@@ -5,7 +5,7 @@
     /* "modules-right": ["tray", "custom/scratchpad-indicator", "pulseaudio", "custom/power"], */
     "modules-right": ["tray", "custom/scratchpad-indicator", "network",
     "pulseaudio", "battery", "custom/power"],
-    "output": ["eDP-1", "HDMI-A-1"],
+    "output": ["eDP-1", "HDMI-A-1", "DP-3"],
         "hyprland/workspaces" : {
         "on-click": "activate",
         "active-only": false,
