@@ -68,7 +68,7 @@ inputbar {
     border-radius:               25px;
     orientation:                 horizontal;
     children:                    ["entry", "dummy", "mode-switcher" ];
-    background-image:            url("/home/brigham/media/wallpapers/abstract-gray.png", width);
+    background-image:            url("/home/brigham/media/wallpapers/sur-Night.jpg", width);
 }
 
 /* ---- Entry input ---- */
