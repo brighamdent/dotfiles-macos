@@ -5,6 +5,9 @@ set -g fish_greeting ""
 set -x PATH $HOME/bin $PATH
 set -x MUSIC_DIR ~/media/music/Liked-Songs/
 
+if test -n "$NVIM_LISTEN_ADDRESS"
+  set -x MANPAGER "/usr/local/bin/nvr -c 'Man!' -o -"
+end
 
 bind \cH backward-kill-word
 #List of aliases
