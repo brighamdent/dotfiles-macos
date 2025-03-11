@@ -11,6 +11,11 @@ vim.g.closetag_regions = {
 
 vim.g.closetag_shortcut = ">"
 vim.o.mouse = ""
+vim.o.autoread = true
+vim.api.nvim_create_autocmd({ "BufEnter", "CursorHold", "CursorHoldI", "FocusGained" }, {
+  command = "if mode() != 'c' | checktime | endif",
+  pattern = { "*" },
+})
 vim.opt.textwidth = 80
 vim.opt.rnu = true
 vim.opt.conceallevel = 1

@@ -12,6 +12,7 @@ local options = {
     python = { "black" },
     sh = { "shfmt" },
     cs = { "csharpier" },
+    json = { "prettier" }
   },
 
   -- adding same formatter for multiple filetypes can look too much work for some

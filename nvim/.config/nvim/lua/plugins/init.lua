@@ -135,8 +135,8 @@ return {
     lazy = false,
     opts = {
       -- Defaults
-      enable_close = true, -- Auto close tags
-      enable_rename = true, -- Auto rename pairs of tags
+      enable_close = true,           -- Auto close tags
+      enable_rename = true,          -- Auto rename pairs of tags
       enable_close_on_slash = false, -- Auto close on trailing </
     },
     -- Also override individual filetype configs, these take priority.
@@ -201,39 +201,39 @@ return {
     version = "*",
     lazy = false,
   },
-  {
-    "epwalsh/obsidian.nvim",
-    version = "*", -- recommended, use latest release instead of latest commit
-    lazy = true,
-    ft = "markdown",
-    -- Replace the above line with this if you only want to load obsidian.nvim for markdown files in your vault:
-    -- event = {
-    --   -- If you want to use the home shortcut '~' here you need to call 'vim.fn.expand'.
-    --   -- E.g. "BufReadPre " .. vim.fn.expand "~" .. "/my-vault/**.md"
-    --   "BufReadPre path/to/my-vault/**.md",
-    --   "BufNewFile path/to/my-vault/**.md",
-    -- },
-    dependencies = {
-      -- Required.
-      "nvim-lua/plenary.nvim",
-
-      -- see below for full list of optional dependencies 👇
-    },
-    opts = {
-      workspaces = {
-        {
-          name = "personal",
-          path = "~/Documents/Notes",
-        },
-        -- {
-        --   name = "work",
-        --   path = "~/vaults/work",
-        -- },
-      },
-
-      -- see below for full list of options 👇
-    },
-  },
+  -- {
+  --   "epwalsh/obsidian.nvim",
+  --   version = "*", -- recommended, use latest release instead of latest commit
+  --   lazy = true,
+  --   ft = "markdown",
+  --   -- Replace the above line with this if you only want to load obsidian.nvim for markdown files in your vault:
+  --   -- event = {
+  --   --   -- If you want to use the home shortcut '~' here you need to call 'vim.fn.expand'.
+  --   --   -- E.g. "BufReadPre " .. vim.fn.expand "~" .. "/my-vault/**.md"
+  --   --   "BufReadPre path/to/my-vault/**.md",
+  --   --   "BufNewFile path/to/my-vault/**.md",
+  --   -- },
+  --   dependencies = {
+  --     -- Required.
+  --     "nvim-lua/plenary.nvim",
+  --
+  --     -- see below for full list of optional dependencies 👇
+  --   },
+  --   opts = {
+  --     workspaces = {
+  --       {
+  --         name = "personal",
+  --         path = "~/Documents/Notes",
+  --       },
+  --       -- {
+  --       --   name = "work",
+  --       --   path = "~/vaults/work",
+  --       -- },
+  --     },
+  --
+  --     -- see below for full list of options 👇
+  --   },
+  -- },
   {
     "nvim-lua/plenary.nvim",
   },
@@ -347,7 +347,7 @@ return {
           -- command_palette = true,       -- position the cmdline and popupmenu together
           long_message_to_split = true, -- long messages will be sent to a split
           -- inc_rename = false, -- enables an input dialog for inc-rename.nvim
-          lsp_doc_border = false, -- add a border to hover docs and signature help
+          lsp_doc_border = false,       -- add a border to hover docs and signature help
         },
       }
     end,
@@ -361,7 +361,7 @@ return {
   {
     "kristijanhusak/vim-dadbod-ui",
     dependencies = {
-      { "tpope/vim-dadbod", lazy = true },
+      { "tpope/vim-dadbod",                     lazy = true },
       { "kristijanhusak/vim-dadbod-completion", ft = { "sql", "mysql", "plsql" }, lazy = true },
     },
     cmd = {
@@ -392,6 +392,20 @@ return {
       vim.g.mkdp_filetypes = { "markdown" }
     end,
     ft = { "markdown" },
+  },
+  {
+    "NeogitOrg/neogit",
+    cmd = { "Neogit" },
+    dependencies = {
+      "nvim-lua/plenary.nvim",  -- required
+      "sindrets/diffview.nvim", -- optional - Diff integration
+
+      -- Only one of these is needed.
+      "nvim-telescope/telescope.nvim", -- optional
+      "ibhagwan/fzf-lua",              -- optional
+      "echasnovski/mini.pick",         -- optional
+    },
+    config = true
   },
   -- {
   --   "preservim/vim-pencil",
@@ -429,4 +443,62 @@ return {
   --     vim.keymap.set("v", "d", "d<cmd>AutolistRecalculate<cr>")
   --   end,
   -- },
+  -- {
+  --   "yetone/avante.nvim",
+  --   event = "VeryLazy",
+  --   lazy = false,
+  --   version = false, -- Set this to "*" to always pull the latest release version, or set it to false to update to the latest code changes.
+  --   opts = {
+  --     -- add any opts here
+  --     -- for example
+  --     provider = "openai",
+  --     openai = {
+  --       endpoint = "https://api.openai.com/v1",
+  --       model = "gpt-4o", -- your desired model (or use gpt-4o, etc.)
+  --       timeout = 30000,  -- timeout in milliseconds
+  --       temperature = 0,  -- adjust if needed
+  --       max_tokens = 4096,
+  --     },
+  --   },
+  --   -- if you want to build from source then do `make BUILD_FROM_SOURCE=true`
+  --   build = "make",
+  --   -- build = "powershell -ExecutionPolicy Bypass -File Build.ps1 -BuildFromSource false" -- for windows
+  --   dependencies = {
+  --     "stevearc/dressing.nvim",
+  --     "nvim-lua/plenary.nvim",
+  --     "MunifTanjim/nui.nvim",
+  --     --- The below dependencies are optional,
+  --     "echasnovski/mini.pick",         -- for file_selector provider mini.pick
+  --     "nvim-telescope/telescope.nvim", -- for file_selector provider telescope
+  --     "hrsh7th/nvim-cmp",              -- autocompletion for avante commands and mentions
+  --     "ibhagwan/fzf-lua",              -- for file_selector provider fzf
+  --     "nvim-tree/nvim-web-devicons",   -- or echasnovski/mini.icons
+  --     "zbirenbaum/copilot.lua",        -- for providers='copilot'
+  --     {
+  --       -- support for image pasting
+  --       "HakonHarnes/img-clip.nvim",
+  --       event = "VeryLazy",
+  --       opts = {
+  --         -- recommended settings
+  --         default = {
+  --           embed_image_as_base64 = false,
+  --           prompt_for_file_name = false,
+  --           drag_and_drop = {
+  --             insert_mode = true,
+  --           },
+  --           -- required for Windows users
+  --           use_absolute_path = true,
+  --         },
+  --       },
+  --     },
+  --     {
+  --       -- Make sure to set this up properly if you have lazy=true
+  --       'MeanderingProgrammer/render-markdown.nvim',
+  --       opts = {
+  --         file_types = { "markdown", "Avante" },
+  --       },
+  --       ft = { "markdown", "Avante" },
+  --     },
+  --   },
+  -- }
 }
