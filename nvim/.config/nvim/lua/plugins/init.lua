@@ -237,73 +237,73 @@ return {
   {
     "nvim-lua/plenary.nvim",
   },
-  {
-    "theprimeagen/harpoon",
-    branch = "harpoon2",
-    dependencies = { "nvim-lua/plenary.nvim" },
-    config = function()
-      require("harpoon"):setup()
-    end,
-    keys = {
-      {
-        "<leader>A",
-        function()
-          require("harpoon"):list():add()
-        end,
-        desc = "harpoon file",
-      },
-      {
-        "<leader>r",
-        function()
-          require("harpoon"):list():remove()
-        end,
-        desc = "harpoon file",
-      },
-      {
-        "<leader>a",
-        function()
-          local harpoon = require "harpoon"
-          harpoon.ui:toggle_quick_menu(harpoon:list())
-        end,
-        desc = "harpoon quick menu",
-      },
-      {
-        "<leader>1",
-        function()
-          require("harpoon"):list():select(1)
-        end,
-        desc = "harpoon to file 1",
-      },
-      {
-        "<leader>2",
-        function()
-          require("harpoon"):list():select(2)
-        end,
-        desc = "harpoon to file 2",
-      },
-      {
-        "<leader>3",
-        function()
-          require("harpoon"):list():select(3)
-        end,
-        desc = "harpoon to file 3",
-      },
-      {
-        "<leader>4",
-        function()
-          require("harpoon"):list():select(4)
-        end,
-        desc = "harpoon to file 4",
-      },
-      {
-        "<leader>5",
-        function()
-          require("harpoon"):list():select(5)
-        end,
-        desc = "harpoon to file 5",
-      },
-    },
-  },
+  -- {
+  --   "theprimeagen/harpoon",
+  --   branch = "harpoon2",
+  --   dependencies = { "nvim-lua/plenary.nvim" },
+  --   config = function()
+  --     require("harpoon"):setup()
+  --   end,
+  --   keys = {
+  --     {
+  --       "<leader>A",
+  --       function()
+  --         require("harpoon"):list():add()
+  --       end,
+  --       desc = "harpoon file",
+  --     },
+  --     {
+  --       "<leader>r",
+  --       function()
+  --         require("harpoon"):list():remove()
+  --       end,
+  --       desc = "harpoon file",
+  --     },
+  --     {
+  --       "<leader>a",
+  --       function()
+  --         local harpoon = require "harpoon"
+  --         harpoon.ui:toggle_quick_menu(harpoon:list())
+  --       end,
+  --       desc = "harpoon quick menu",
+  --     },
+  --     {
+  --       "<leader>1",
+  --       function()
+  --         require("harpoon"):list():select(1)
+  --       end,
+  --       desc = "harpoon to file 1",
+  --     },
+  --     {
+  --       "<leader>2",
+  --       function()
+  --         require("harpoon"):list():select(2)
+  --       end,
+  --       desc = "harpoon to file 2",
+  --     },
+  --     {
+  --       "<leader>3",
+  --       function()
+  --         require("harpoon"):list():select(3)
+  --       end,
+  --       desc = "harpoon to file 3",
+  --     },
+  --     {
+  --       "<leader>4",
+  --       function()
+  --         require("harpoon"):list():select(4)
+  --       end,
+  --       desc = "harpoon to file 4",
+  --     },
+  --     {
+  --       "<leader>5",
+  --       function()
+  --         require("harpoon"):list():select(5)
+  --       end,
+  --       desc = "harpoon to file 5",
+  --     },
+  --   },
+  -- },
   {
     "edluffy/hologram.nvim",
     lazy = false,
@@ -383,16 +383,16 @@ return {
       vim.g.db_ui_use_nerd_fonts = 1
     end,
   },
-  {
-    "iamcco/markdown-preview.nvim",
-    cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
-    mappings = { "<leader>pv" },
-    build = "cd app && yarn install",
-    init = function()
-      vim.g.mkdp_filetypes = { "markdown" }
-    end,
-    ft = { "markdown" },
-  },
+  -- {
+  --   "iamcco/markdown-preview.nvim",
+  --   cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
+  --   mappings = { "<leader>pv" },
+  --   build = "cd app && yarn install",
+  --   init = function()
+  --     vim.g.mkdp_filetypes = { "markdown" }
+  --   end,
+  --   ft = { "markdown" },
+  -- },
   {
     "NeogitOrg/neogit",
     cmd = { "Neogit" },
@@ -453,11 +453,11 @@ return {
   --     -- for example
   --     provider = "openai",
   --     openai = {
-  --       endpoint = "https://api.openai.com/v1",
-  --       model = "gpt-4o", -- your desired model (or use gpt-4o, etc.)
-  --       timeout = 30000,  -- timeout in milliseconds
-  --       temperature = 0,  -- adjust if needed
-  --       max_tokens = 4096,
+  --       endpoint = "https://openrouter.ai/api/v1",
+  --       model = "openrouter/quasar-alpha", -- your desired model (or use gpt-4o, etc.)
+  --       timeout = 30000,                   -- timeout in milliseconds
+  --       temperature = 0,                   -- adjust if needed
+  --       -- max_tokens = 4096,
   --     },
   --   },
   --   -- if you want to build from source then do `make BUILD_FROM_SOURCE=true`
@@ -500,5 +500,55 @@ return {
   --       ft = { "markdown", "Avante" },
   --     },
   --   },
+  -- },
+
+  -- {
+  --   "gaoDean/autolist.nvim",
+  --   ft = {
+  --     "markdown",
+  --     "text",
+  --     "tex",
+  --     "plaintex",
+  --     "norg",
+  --   },
+  --   config = function()
+  --     require("autolist").setup()
+  --
+  --     vim.keymap.set("i", "<tab>", "<cmd>AutolistTab<cr>")
+  --     vim.keymap.set("i", "<s-tab>", "<cmd>AutolistShiftTab<cr>")
+  --     -- vim.keymap.set("i", "<c-t>", "<c-t><cmd>AutolistRecalculate<cr>") -- an example of using <c-t> to indent
+  --     vim.keymap.set("i", "<CR>", "<CR><cmd>AutolistNewBullet<cr>")
+  --     vim.keymap.set("n", "o", "o<cmd>AutolistNewBullet<cr>")
+  --     vim.keymap.set("n", "O", "O<cmd>AutolistNewBulletBefore<cr>")
+  --     vim.keymap.set("n", "<CR>", "<cmd>AutolistToggleCheckbox<cr><CR>")
+  --     vim.keymap.set("n", "<C-r>", "<cmd>AutolistRecalculate<cr>")
+  --
+  --     -- cycle list types with dot-repeat
+  --     vim.keymap.set("n", "<leader>cn", require("autolist").cycle_next_dr, { expr = true })
+  --     vim.keymap.set("n", "<leader>cp", require("autolist").cycle_prev_dr, { expr = true })
+  --
+  --     -- if you don't want dot-repeat
+  --     -- vim.keymap.set("n", "<leader>cn", "<cmd>AutolistCycleNext<cr>")
+  --     -- vim.keymap.set("n", "<leader>cp", "<cmd>AutolistCycleNext<cr>")
+  --
+  --     -- functions to recalculate list on edit
+  --     vim.keymap.set("n", ">>", ">><cmd>AutolistRecalculate<cr>")
+  --     vim.keymap.set("n", "<<", "<<<cmd>AutolistRecalculate<cr>")
+  --     vim.keymap.set("n", "dd", "dd<cmd>AutolistRecalculate<cr>")
+  --     vim.keymap.set("v", "d", "d<cmd>AutolistRecalculate<cr>")
+  --   end,
+  -- },
+  -- {
+  --   -- Make sure to set this up properly if you have lazy=true
+  --   'MeanderingProgrammer/render-markdown.nvim',
+  --   opts = {
+  --     file_types = { "markdown", "Avante" },
+  --   },
+  --   ft = { "markdown" },
+  -- },
+  -- {
+  --   'nfrid/markdown-togglecheck',
+  --   dependencies = { 'nfrid/treesitter-utils' },
+  --   ft = { 'markdown' },
   -- }
 }

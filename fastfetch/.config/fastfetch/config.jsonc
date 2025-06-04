@@ -5,16 +5,22 @@
         "separator": "• "
     },
     "logo":{
-         "source": "~/.config/fastfetch/archlogo.txt",
+         // "source": "~/.config/fastfetch/archlogo.txt",
+            
           "color": {
-      "1": "yellow"
+      "1": "38;2;98;105;125",
+      "2": "38;2;91;106;130",
+      "3": "38;2;58;74;101",
+      "4": "38;2;83;92;123",
+      "5": "38;2;46;57;97",
+
+      
           },
          
     },
     "display": {
         "binaryPrefix": "si",
         "color": "blue",
-        "separator": "  "
     },
     "modules": [
         "break",
@@ -29,47 +35,51 @@
         },
         {
             "type": "os",
-            "key": "  ",
-            "format": "{3}"
+            "key": "  ",
+            "keycolor" : "blue"
         },
         {
                     "type": "host",
                     "key": "  ",
-                     "format": "{3}"
+                     "format": "{1}",
+            "keycolor" : "blue"
                 },
         {
-            "type": "kernel",
-            "key": "  "
-        },
-        {
             "type": "wm",
-            "key": "  "
+            "key": "  ",
+            "keycolor" : "blue"
         },
         {
             "type": "shell",
-            "key": " $ "
+            "key": " $ ",
+            "keycolor" : "blue"
         },
         {
             "type": "terminal",
-            "key": "  "
+            "key": "  ",
+            "keycolor" : "blue"
         },
         {
             "type": "uptime",
-            "key": " 󰔚 "
+            "key": " 󰔚 ",
+            "keycolor" : "blue"
         },
         {
             "type": "packages",
-            "key": "  "
+            "key": "  ",
+            "keycolor" : "blue"
         },
         {
             "type": "memory",
-            "key": " 󰍛 "
+            "key": " 󰍛 ",
+            "keycolor" : "blue"
         },
         {
             "type": "disk",
             "key":"  ",
              "folders": "/:/home:/boot:/efi",
-             "format": "{1}/{2} {3}"
+             "format": "{1}/{2} {3}",
+            "keycolor" : "blue"
         },
         {
             "type": "custom",
@@ -77,8 +87,7 @@
         },
         {
             "type": "custom",
-             // "format": "       \u001b[31m███\u001b[32m███\u001b[33m███\u001b[34m███\u001b[35m███\u001b[36m███"
-               "format": "     \u001b[90m●  \u001b[31m●  \u001b[32m●  \u001b[33m●  \u001b[34m●  \u001b[35m●  \u001b[36m●  \u001b[37m● "
+"format": "     \u001b[38;2;255;255;255m●  \u001b[38;2;98;105;125m●  \u001b[38;2;91;106;130m●  \u001b[38;2;58;74;101m●  \u001b[38;2;83;92;123m●  \u001b[38;2;46;57;97m●  \u001b[38;2;75;86;110m●"
         }
     ]
 }

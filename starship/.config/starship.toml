@@ -26,7 +26,7 @@ $time\
 [ ](fg:color_bg1)\
 $line_break$character"""
 
-palette = 'wal'
+palette = 'custom_night'
 
 [palettes.gruvbox_dark]
 color_fg0 = '#fbf1c7'
@@ -40,6 +40,35 @@ color_purple = '#b16286'
 color_red = '#cc241d'
 color_yellow = '#d79921'
 
+
+[palettes.custom_night]
+color_fg0 = '#ffffff'
+color_bg1 = '#62697D'  # Darker background
+color_bg3 = '#62697D'  # Secondary background
+color_blue = '#4B566E'
+color_aqua = '#62697D'
+color_green = '#5B6A82'
+color_orange = '#3A4A65'
+color_purple = '#535c7b'
+color_red = '#2e3961'
+color_yellow = '#4B566E'
+
+#0A0D1F
+#3A4A65
+#42495D
+#4B566E
+#57637A
+#62697D
+#5B6A82
+#adb1bb
+#797b82
+#3A4A65
+#42495D
+#4B566E
+#57637A
+#62697D
+#5B6A82
+#adb1bb
 [palettes.wal]
 color_fg0 = '#ffffff'
 color_bg1 = 'purple'
