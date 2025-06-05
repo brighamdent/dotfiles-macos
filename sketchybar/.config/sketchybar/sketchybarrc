@@ -9,8 +9,24 @@ PLUGIN_DIR="$CONFIG_DIR/plugins"
 # https://felixkratz.github.io/SketchyBar/config/bar
 # If you are looking for other colors, see the color picker:
 # https://felixkratz.github.io/SketchyBar/config/tricks#color-picker
+#
+# BG=0x651e1e2e
 
-sketchybar --bar position=top height=40 blur_radius=30 color=0x00000000 notch_offset=15
+sketchybar --bar \
+  margin=17 height=38 \
+  corner_radius=6 blur_radius=5 \
+  border_width=1 border_color=0x00000000 \
+  padding_left=17 padding_right=17 \
+  shadow.color=0x28000000 shadow.angle=0 \
+  color=$BG
+
+sketchybar --add item os left \
+  --set os \
+  icon= icon.color=0x44FFFFFF \
+  icon.font.size=21 icon.y_offset=2 \
+  icon.padding_left=0 icon.padding_right=0 \
+  label.padding_left=0 label.padding_right=6 \
+  background.drawing=off
 
 ##### Changing Defaults #####
 # We now change some default values, which are applied to all further items.
@@ -46,7 +62,7 @@ for sid in $(aerospace list-workspaces --monitor 1); do
     background.corner_radius=5 \
     background.drawing=on \
     background.border_color=0xAAFFFFFF \
-    background.border_width=0 \
+    background.border_width=2 \
     background.height=20 \
     icon="$sid" \
     icon.padding_left=10 \
@@ -72,22 +88,6 @@ for sid in $(aerospace list-workspaces --monitor 1 --empty no); do
   sketchybar --set space.$sid 
 done
 
-sketchybar --add item space_separator left \
-  --set space_separator icon="" \
-  icon.padding_left=4 \
-  label.drawing=off \
-  background.drawing=off \
-  script="$PLUGIN_DIR/space_windows.sh" \
-  --subscribe space_separator aerospace_workspace_change
-  icon_strip=" "
-  if [ "${apps}" != "" ]; then
-    while read -r app; do
-      icon_strip+=" $($CONFIG_DIR/plugins/icon_map_fn.sh "$app")"
-    done <<<"${apps}"
-  else
-    icon_strip=""
-  fi
-
 # Front app!!
 sketchybar --add item front_app left \
   --set front_app icon.drawing=off \
@@ -106,7 +106,7 @@ sketchybar --add item front_app left \
 # https://felixkratz.github.io/SketchyBar/config/events
 
 sketchybar --add item clock right \
-  --set clock update_freq=10 script="$PLUGIN_DIR/clock.sh" \
+  --set clock update_freq=1 script="$PLUGIN_DIR/clock.sh" \
   --add item volume right \
   --set volume script="$PLUGIN_DIR/volume.sh" \
   --subscribe volume volume_change \
