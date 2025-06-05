@@ -5,7 +5,7 @@ local M = {}
 
 M.base46 = {
   transparency = true,
-  
+
   hl_override = {
     -- Pmenu = { bg = "#ffffff" }, this works too
     -- if you want to lighten or darken color
@@ -56,8 +56,6 @@ M.ui = {
       base_30 = {
         white = "#FFFFFF",
         grey_fg = "#79808a",
-        -- grey = "#79808a",
-        -- light_grey = "#FFFFFF",
       },
     },
 

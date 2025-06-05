@@ -1,6 +1,5 @@
 require "nvchad.mappings"
 
--- add yours here
 
 local map = vim.keymap.set
 
@@ -27,4 +26,3 @@ map({ 'n', 'v' }, "<leader>di", "<cmd>Noice dismiss<cr>")
 map("n", "<leader>pv", "<cmd>MarkdownPreviewToggle <cr>")
 map("n", "<leader>lf", vim.diagnostic.open_float, { desc = "lsp floating diagnostics" })
 -- map("n", "<leader>cc", require('markdown-togglecheck').toggle, { desc = 'Toggle Checkmark' })
--- map({ "n", "i", "v" }, "<C-s>", "<cmd> w <cr>")
